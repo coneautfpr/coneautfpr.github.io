@@ -6,7 +6,7 @@ let sec = 0;
 let arrDescricao = [
 	"Visita técnica ao Refúgio das Curucacas.",
 	"Visita técnica ao Refúgio das Curucacas.",
-	"Visita técnica á Usina Termoelétrica a Biogás - UTB.",
+	"Visita técnica à Usina Termoelétrica a Biogás - UTB.",
 ];
 var x = window.matchMedia("(max-width: 768px)");
 
