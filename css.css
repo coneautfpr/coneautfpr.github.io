@@ -1,0 +1,151 @@
+* {
+    transition: width 0.5s ease-in-out, height 0.5s, padding 0.2s, color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #1D2021;
+	margin:0; padding:0;
+}
+
+.logoCon {
+	position:relative;
+	justify-content: center;
+	display:flex;
+	padding:15px;
+	background-color: #1D2021;
+}
+
+.logo {
+	width: 400px;
+}
+
+.nav {
+	top:0;
+	position:sticky;
+	background-color: #1D2021;
+	overflow: hidden;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.nav a {
+	float: left;
+	color: #EBDBB2;
+	text-align: center;
+	padding: 4px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	/*border-radius:10px;*/
+}
+
+.nav a:hover {	
+	background-color: #B8BB26;
+	color: #282828;
+}
+
+.nav a.active {
+	background-color: #2E8A56;
+}
+
+.body {
+	border-radius:1rem;
+	background-color: #F9F5D7;
+	color: #282828;
+	margin: 0 auto;
+	max-width: 95%;/*700px 36em;*/
+	padding: 20px;
+	hyphens: auto;
+	overflow-wrap: break-word;
+	text-rendering: optimizeLegibility;
+	font-size: 18px;
+	font-kerning: normal;
+	/*font-weight: bold;*/
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.body p {
+	text-indent: 50px;
+}
+
+.body h1, .body p, .body small {
+	margin: 10px 20%;
+}
+
+.body h1 {
+	display: block;
+	text-align:center;
+	background: #1D2021;
+	border: 2px solid;
+	border-radius: 1rem;
+	color: #F9F5D7; 
+}
+
+.body small {
+	display: block;
+	text-align:center;	
+}
+
+.body a {
+	color: #458588;
+}
+
+.body img, .body iframe {
+	margin: 15px;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.5), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.5);
+	border:1px solid;
+	border-radius: 1rem;
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.body .progress {
+	display: block;
+	margin-top: -14px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1rem;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.5), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.5);
+	border: 0px;
+	/*Set in JS*/
+	width: 0.5px; 
+	height: 0.5px;
+	background: rgba(46, 138, 86, 0.5);
+}
+
+.footer { 
+	position: static;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+	justify-content: center;
+	display:flex;
+	padding:4px;
+	background-color: #1D2021;
+	color: #EBDBB2;
+}
+
+@media screen and (max-width: 768px) {
+	.nav a {
+		padding: 16px 16px;
+	}
+	.logo {
+		width: 65%;
+	}
+	.body {
+		padding: 12px;
+		text-align: center;
+	}
+	.body h1,p, small {
+		text-indent: 0px;
+		margin: 5px 5px;
+	}
+	.body img, .body iframe {
+		width:80%;
+	}
+}
