@@ -1,5 +1,5 @@
 * {
-    transition: width 0.5s ease-in-out, height 0.5s, padding 0.2s, color 0.2s, background-color 0.2s, border-color 0.2s;
+    transition: border 0.2s, width 0.5s ease-in-out, height 0.5s, padding 0.2s, color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 body {

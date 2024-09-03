@@ -16,11 +16,28 @@ function incremento() {
 	iProgresso++;
 	if (iProgresso >= arrDescricao.length)
 		iProgresso = 0;
+	imagem.style.borderRight = "0.5rem solid #2E8A56";
 }
 
-imagem.onclick = function() {
-	incremento();	
+imagem.onclick = incremento;
+
+imagem.onmousedown = function() {
+	imagem.style.borderRight = "0rem";
 };
+
+imagem.onmouseenter = function() {
+	barraProg.style.height = "0.5px";
+	barraProg.style.border = "0px";
+	imagem.style.borderRight = "0.5rem solid #2E8A56";
+};
+
+function mostrarBarProgEsconderBorda() {
+	barraProg.style.height = "10px";
+	barraProg.style.border = "1px solid #1D2021";
+	imagem.style.borderRight = "0rem";
+};
+
+imagem.onmouseleave = mostrarBarProgEsconderBorda;
 
 window.setInterval(function() {
 	if (!imagem.matches(":hover"))
@@ -28,16 +45,10 @@ window.setInterval(function() {
 		if (0 === sec)
 			incremento();
 
-		barraProg.style.height = "10px";
-		barraProg.style.border = "1px solid #1D2021"
+		mostrarBarProgEsconderBorda();
 		sec++;
 		barraProg.style.width = x.matches ? `${80 * sec / 5}%` : `${700 * sec / 5}px`;
 		if (5 === sec)
 			sec = 0;
-	}
-	else 
-	{
-		barraProg.style.height = "0.5px";
-		barraProg.style.border = "0px";
 	}
 }, 1000);
