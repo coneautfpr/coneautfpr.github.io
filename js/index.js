@@ -26,14 +26,12 @@ imagem.onmousedown = function() {
 };
 
 imagem.onmouseenter = function() {
-	barraProg.style.height = "0.5px";
-	barraProg.style.border = "0px";
+	barraProg.style.height = "0.1px";
 	imagem.style.borderRight = "0.5rem solid #2E8A56";
 };
 
 function mostrarBarProgEsconderBorda() {
 	barraProg.style.height = "10px";
-	barraProg.style.border = "1px solid #1D2021";
 	imagem.style.borderRight = "0rem";
 };
 
@@ -43,12 +41,19 @@ window.setInterval(function() {
 	if (!imagem.matches(":hover"))
 	{
 		if (0 === sec)
+		{
+			barraProg.style.borderTopRightRadius = 
+				barraProg.style.borderTopLeftRadius = `0rem`;
 			incremento();
+		}
 
 		mostrarBarProgEsconderBorda();
 		sec++;
 		barraProg.style.width = x.matches ? `${80 * sec / 5}%` : `${700 * sec / 5}px`;
 		if (5 === sec)
+		{
+			barraProg.style.borderRadius = `1rem`;
 			sec = 0;
+		}
 	}
 }, 1000);
