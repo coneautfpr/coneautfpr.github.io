@@ -9,7 +9,7 @@
 		},
 ```
 
-- Fazer upload de uma imagem com o nome da notícia em formato WEBP, e um arquivo HTML com o mesmo nome, editando as informações após `<!--- body --->`:
+- Fazer upload de uma imagem com o nome da notícia em formato WEBP, e um arquivo HTML com o mesmo nome, editando as informações após `<!--- body --->`, não se esqueça de trocar o titulo da página na parte `<head>`:
 
 ```html
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>CONEA marca presença no Pré-SICITE e Pré-SEI</title>
+		<title>CONEA - TITULO COMPLETO</title>
 		<link rel="icon" type="image/x-icon" href="../img/conea.png">
 		<link rel="stylesheet" href="../css.css">
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
