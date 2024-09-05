@@ -77,10 +77,11 @@ body {
 .body h1 {
 	display: block;
 	text-align:center;
-	background: #1D2021;
+	/*background: #1D2021;
 	border: 2px solid;
 	border-radius: 1rem;
-	color: #F9F5D7; 
+	color: #F9F5D7; */
+	text-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.2), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.2);
 }
 
 .body small {
@@ -120,6 +121,48 @@ body {
 	background: rgb(46,138,86);
 }
 
+.body .notbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.body .notbox .noticia {
+	display:flex;
+	/*flex-wrap:wrap;*/
+	border: 1px solid #1D2021;
+	border-radius: 1rem;
+	overflow: hidden;
+	background: #1d2021;
+	color: #ebdbb2; 
+	padding: 1rem;
+	margin: 1rem;
+	width: 50%;
+	/*height: 200px;*/
+	text-decoration: none;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.5), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.5);
+}
+
+.body .notbox .noticia img {
+	width: 240px;
+	height: 160px;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(235,219,178, 0.5), -0.1rem -0.1rem 0.5rem rgba(235,219,178, 0.5);
+	margin: 1rem;
+}
+
+.body .notbox .noticia .text {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-shadow: 0.1rem 0.1rem 0.5rem rgba(235,219,178, 0.2), -0.1rem -0.1rem 0.5rem rgba(235,219,178, 0.2);
+	text-decoration: none;	
+	hyphens: auto;
+	overflow-wrap: break-word;
+	text-rendering: optimizeLegibility;
+	margin: 1rem;
+	font-size: 1rem;
+}
+
 .footer { 
 	position: static;
 	bottom: 0;
@@ -152,5 +195,15 @@ body {
 	.body img, 
 	.body iframe {
 		width:80%;
+	}
+
+	.body .notbox .noticia {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.body .notbox .noticia img {
+		width: 70%;
+		height: auto;
 	}
 }
