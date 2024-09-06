@@ -1,4 +1,4 @@
-/*var x = window.matchMedia("(max-width: 768px)");*/
+var x = window.matchMedia("(max-width: 768px)").matches;
 fetch("noticias/artigos.json").then(res => res.json())
 	.then(data => {
 		const body = document.getElementById("body");
@@ -7,8 +7,7 @@ fetch("noticias/artigos.json").then(res => res.json())
 		data.forEach(item => {
 			const artigo = document.createElement("a");
 			artigo.className = "noticia";
-			artigo.style.width = "auto";
-			artigo.style.minWidth = "50%";
+			artigo.style.width = x ? "100%" : "60%";
 			if (item[1]) {
 				artigo.href = item[1];
 				
@@ -39,6 +38,7 @@ fetch("noticias/artigos.json").then(res => res.json())
 
 			notbox.appendChild(artigo);
 		});
+		body.innerHTML = "";
 		body.appendChild(notbox);
 	});
 
