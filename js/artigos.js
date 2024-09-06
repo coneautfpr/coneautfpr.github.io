@@ -93,6 +93,7 @@ async function construirPagina() {
 }
 
 input.oninput = function () {
+	pagina = 1;
 	construirPagina();
 }
 

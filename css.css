@@ -127,12 +127,12 @@ body {
 
 .body .pesquisa input {
 	margin-right: 5px;
-	background-color: #F9F5D7;
+	background-color: #FFFFFF;
 	border-color: #1d2021;
 	color: #1d2021;
 	border: 1px solid;
 	border-radius: 1rem;
-	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.5), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.5);
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.2), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.2);
 }
 
 .body .notbox {
