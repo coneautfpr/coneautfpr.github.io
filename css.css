@@ -120,12 +120,35 @@ body {
 	height: 0.1px;
 	background: rgb(46,138,86);
 }
+.body .pesquisa {
+	display: flex;
+	justify-content:center;
+}
+
+.body .pesquisa input {
+	margin-right: 5px;
+	background-color: #F9F5D7;
+	border-color: #1d2021;
+	color: #1d2021;
+	border: 1px solid;
+	border-radius: 1rem;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.5), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.5);
+}
 
 .body .notbox {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+/*@keyframes zoom {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}*/
 
 .body .notbox .noticia {
 	display:flex;
@@ -141,6 +164,12 @@ body {
 	/*height: 200px;*/
 	text-decoration: none;
 	box-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.5), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.5);
+	/*animation: 0.5s ease-in-out zoom;*/
+	transition: background-color 0.2s;
+}
+
+.body .notbox .noticia:hover {
+	background-color: #2E8A56;	
 }
 
 .body .notbox .noticia img {
@@ -163,14 +192,53 @@ body {
 	font-size: 1rem;
 }
 
+.page {
+	bottom:0;
+	position:sticky;
+	overflow: hidden;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.page a {
+	float: left;
+	color: #EBDBB2;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1rem;
+	background-color: #1D2021;
+	margin: 5px;
+	border-radius: 100%;
+	border: 1px solid #ebdbb2;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(235,219,178, 0.5), -0.1rem -0.1rem 0.5rem rgba(235,219,178, 0.5);
+	text-shadow: 0.1rem 0.1rem 0.5rem rgba(235,219,178, 0.2), -0.1rem -0.1rem 0.5rem rgba(235,219,178, 0.2);
+}
+
+.page a:hover {	
+	background-color: #B8BB26;
+	color: #282828;
+}
+
+.page a.active {
+	background-color: #2E8A56;
+}
+
 /*https://www.w3schools.com/howto/howto_css_loader.asp*/
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-.body .bx-loader {
+.body .bx-loader { 
 	animation: spin 2s linear infinite;
+}
+
+.body .carregando {
+	transition: all 0.5s ease-in-out;
 }
 
 .footer { 
@@ -215,5 +283,9 @@ body {
 	.body .notbox .noticia img {
 		width: 70%;
 		height: auto;
+	}
+
+	.page a {
+			padding: 16px 24px;
 	}
 }

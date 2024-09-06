@@ -1,42 +1,97 @@
 var x = window.matchMedia("(max-width: 768px)").matches;
-fetch("noticias/noticias.json").then(res => res.json())
-	.then(data => {
-		const body = document.getElementById("body");
-		const notbox = document.createElement("div");
-		notbox.className = "notbox";
-		data.noticias.forEach(item => {	
-			const noticia = document.createElement("a");
-			noticia.href = `noticias/${item.titulo}.html`;
-			noticia.className = "noticia";
+const body = document.getElementById("body");
+const textoCarregando = document.getElementsByClassName("carregando")[0];
+const input = document.getElementsByTagName("input")[0];
+const naoText = document.createElement("h1");
+const notbox = document.createElement("div");
+const pagenav = document.createElement("div");
 
-			const imagem = document.createElement("img");
-			imagem.src = `noticias/${item.titulo}.webp`;
-			noticia.appendChild(imagem);
+let pagina = 1;
+let limite = 5;
+let data;
 
-			const textDiv = document.createElement("div");
-			textDiv.className = "text";
+notbox.className = "notbox";
+pagenav.className = "page";
+naoText.textContent = "Não existe notícias disponíveis.";
 
-			const texto = document.createElement("b");
-			texto.textContent = item.titulo;
-			textDiv.appendChild(texto);
+async function construirPagina() {
+	if (!data)
+		await fetch("noticias/noticias.json").then(res => res.json()).then(rdata => { data = rdata });
 
-			const data = document.createElement("div");
-			data.textContent = item.data;
-			textDiv.appendChild(data);
+	notbox.innerHTML = "";
+	pagenav.innerHTML = "";
+	if (body === naoText.parentElement)
+		body.removeChild(naoText);
 
-			if (!x)
-			{
-				const resumo = document.createElement("div");
-				resumo.textContent = item.resumo;
-				textDiv.appendChild(resumo);
-			}
+	body.appendChild(notbox);
 
-			noticia.appendChild(textDiv);
+	const newData = data.noticias.filter(item => item.titulo.toLowerCase().includes(input.value.toLowerCase()));
 
-			notbox.appendChild(noticia);
-		});
-		body.innerHTML = "";
-		body.appendChild(notbox);
-	});
+	if (0 === newData.length) {
+		body.appendChild(naoText);
+	}
 
+	for (let i = Math.max(0, (pagina-1)*limite);
+		 i < Math.min((pagina*(limite)), newData.length);
+	i++)
+		 {
+			 const noticia = document.createElement("a");
+			 noticia.href = `noticias/${newData[i].titulo}.html`;
+			 noticia.target = "_blank";
+			 noticia.rel = "noopener noreferrer";
+			 noticia.className = "noticia";
 
+			 const imagem = document.createElement("img");
+			 imagem.src = `noticias/${newData[i].titulo}.webp`;
+			 noticia.appendChild(imagem);
+
+			 const textDiv = document.createElement("div");
+			 textDiv.className = "text";
+
+			 const texto = document.createElement("b");
+			 texto.textContent = newData[i].titulo;
+			 textDiv.appendChild(texto);
+
+			 const data = document.createElement("div");
+			 data.textContent = newData[i].data;
+			 textDiv.appendChild(data);
+
+			 if (!x)
+			 {
+				 const resumo = document.createElement("div");
+				 resumo.textContent = newData[i].resumo;
+				 textDiv.appendChild(resumo);
+			 }
+
+			 noticia.appendChild(textDiv);
+
+			 notbox.appendChild(noticia);
+		 }
+
+		 for (let i = 0; i < (Math.ceil(newData.length/limite)); i++)
+		 {
+			 const numeroPagina = document.createElement("a");
+			 numeroPagina.id = `pagina${i+1}`;
+			 numeroPagina.textContent = `${i+1}`;
+			 if ((i+1) === pagina)
+				 numeroPagina.className = "active";
+			 numeroPagina.onclick = function () {
+				 pagina = i+1;
+				 construirPagina();
+
+			 };
+			 pagenav.appendChild(numeroPagina);
+		 }
+		 body.appendChild(pagenav);
+
+		 textoCarregando.style.fontSize = "0px";
+		 textoCarregando.style.margin = "0px";
+		 input.disabled = 0;
+
+}
+
+input.oninput = function () {
+	construirPagina();
+}
+
+construirPagina();
