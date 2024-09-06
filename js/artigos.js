@@ -10,7 +10,8 @@ fetch("noticias/artigos.json").then(res => res.json())
 			artigo.style.width = x ? "100%" : "60%";
 			if (item[1]) {
 				artigo.href = item[1];
-				
+				artigo.target = "_blank";
+				artigo.rel = "noopener noreferrer";	
 			}
 
 			let sep = item[0].split(" . ");
