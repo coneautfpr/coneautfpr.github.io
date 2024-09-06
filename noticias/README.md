@@ -52,3 +52,13 @@
 ```
 
 No futuro simplificar esse processo.
+
+# Como incluir um artigo.
+- Editar o arquivo `artigos.json`, colocando o novo artigo em cima do anterior, caso não exista link para a postagem, apenas inclua o primeiro texto, como mostrado no segundo exemplo:
+```json
+[
+	[ "SOBRENOME, Nome . TITULO. LOCAL, 2024. ", "http://dx.doi.org/.../" ],
+	[ "SOBRENOME, Nome . TITULO. LOCAL, 2024. " ],
+    ...
+]
+```
