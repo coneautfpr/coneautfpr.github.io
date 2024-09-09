@@ -33,18 +33,28 @@ body {
 	padding: 4px 16px;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1rem;
 	/*border-radius:10px;*/
 	transition: all 0.2s ease-in-out;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
 }
 
 .nav a:hover {	
-	background-color: #B8BB26;
-	color: #282828;
+	background-color: #2E8A56;
 }
 
 .nav a.active {
-	background-color: #2E8A56;
+	background-color: #F9F5D7;
+	color: #282828;
+}
+
+.nav a#acessibilidade{
+	background-color: #458588;
+}
+
+.nav a#acessibilidade:hover{
+	color: #282828;
 }
 
 .body {
@@ -91,6 +101,50 @@ body {
 
 .body a {
 	color: #458588;
+}
+
+.body .primeiroBloco {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*border: 1px red solid;*/
+}
+
+.body .primeiroBloco b {
+	text-shadow: 0.1rem 0.1rem 0.5rem rgba(40, 40, 40, 0.2), -0.1rem -0.1rem 0.5rem rgba(40, 40, 40, 0.2);	
+}
+
+.body .primeiroBloco h1 {
+	font-size: 1.5dvw;
+}
+
+.body .primeiroBloco .noticiasBloco {
+	color: #1d2021;
+	margin-right: auto;
+	width: 100%;
+	border-right: 5px solid;
+	border-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(40, 40, 40,1) 50%, rgba(0,0,0,0) 100%) 1 100%;
+	padding: 1rem;
+}
+
+.body .primeiroBloco .noticiasBloco img {
+	width: 360px;
+	height: 240px;
+}
+
+.body .primeiroBloco .artigosBloco {
+	margin-left:auto;
+	margin-top:auto;
+	margin-bottom: auto;
+	width: 100%;
+	padding: 1rem;
+}
+
+.body .primeiroBloco .artigosBloco img {
+	border-radius: 1rem;
+	width: 240px;
+	height: 240px;
 }
 
 .body img, 
@@ -227,16 +281,6 @@ body {
 	background-color: #2E8A56;
 }
 
-/*https://www.w3schools.com/howto/howto_css_loader.asp*/
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.body .bx-loader { 
-	animation: spin 2s linear infinite;
-}
-
 .body .carregando {
 	transition: all 0.5s ease-in-out;
 }
@@ -275,6 +319,19 @@ body {
 		width:80%;
 	}
 
+	.body .primeiroBloco {
+		margin: 0;
+		flex-wrap: wrap;
+	}
+
+	.body .primeiroBloco h1 {
+		font-size: 2rem;
+	}
+
+	.body .primeiroBloco .noticiasBloco {
+		border: 0;
+	}
+
 	.body .notbox .noticia {
 		justify-content: center;
 		flex-wrap: wrap;
@@ -286,6 +343,6 @@ body {
 	}
 
 	.page a {
-			padding: 16px 24px;
+		padding: 16px 24px;
 	}
 }

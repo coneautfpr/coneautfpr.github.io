@@ -17,7 +17,7 @@ naoText.textContent = "Não existe artigos disponíveis.";
 
 async function construirPagina() {
 	if (!data)
-		await fetch("noticias/artigos.json").then(res => res.json()).then(rdata => { data = rdata });
+		await fetch("/etc/artigos.json").then(res => res.json()).then(rdata => { data = rdata });
 
 	notbox.innerHTML = "";
 	pagenav.innerHTML = "";
@@ -88,7 +88,8 @@ async function construirPagina() {
 
 	textoCarregando.style.fontSize = "0px";
 	textoCarregando.style.margin = "0px";
-	input.disabled = 0;	
+	input.disabled = 0;
+	setarAcessibilidade();
 
 }
 
