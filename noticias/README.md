@@ -29,13 +29,13 @@
 		</div>
 		<div class="nav">
 			<a href="/index.html"><i class="bx bx-home"></i> Início</a>
-			<a class="active" href="/noticias.html"><i class="bx bx-news"></i> Notícias</a>
+			<a href="/noticias.html"><i class="bx bx-news"></i> Notícias</a>
 			<a href="/contato.html"><i class="bx bx-envelope"></i> Contato</a>
-			<a href="/artigos.html"><i class="bx bx-library"></i> Artigos</a>
+			<a class="active" href="/artigos.html"><i class="bx bx-library"></i> Artigos</a>
 			<a href="/historia.html"><i class="bx bxs-tree"></i> História</a>
-			<a href="https://www.instagram.com/conea.utfprpg/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
-			<a href="" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
-            <a id="acessibilidade" onclick="ativarAcessibilidade()"><i class='bx bx-accessibility'></i></a>
+			<a href="https://www.instagram.com/conea.utfprpg/" aria-label="Instagram" alt="Página do Instagram do CONEA" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
+			<a href="" aria-label="Facebook" alt="Página do Facebook do CONEA" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
+			<a id="acessibilidade" aria-label="Desativar Animações e ativar alto contraste." alt="Desativar animações e ativar alto contraste" onclick="ativarAcessibilidade()"><i class='bx bx-low-vision'></i></a>
 		</div> 
 		<!--- body --->
 		<div class="body" id="body">
