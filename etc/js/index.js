@@ -10,12 +10,17 @@ const revistaArtigo = document.getElementById("revista_artigo");
 const autoresArtigo = document.getElementById("autores_artigo");
 const linkArtigo = document.getElementById("link_artigo");
 
+const botaoEsquerdaGrupo = document.getElementById("botao_esquerda_grupo");
+const botaoDireitaGrupo = document.getElementById("botao_direita_grupo");
+
 let iProgresso = 1;
 let sec = 0;
 let arrDescricao = [
 	"Visita técnica ao Refúgio das Curucacas.",
 	"Visita técnica ao Refúgio das Curucacas.",
 	"Visita técnica à Usina Termoelétrica a Biogás - UTB.",
+	"Visita à Vila Velha",
+	"Grupo CONEA no evento XVIII Encontro Paranaense de Educação Ambiental",
 ];
 var x = window.matchMedia("(max-width: 768px)");
 
@@ -96,3 +101,44 @@ fetch("/etc/artigos.json").then(res => res.json()).then(data => {
 		linkArtigo.href = "/artigos.html";
 	}
 });
+
+let dataGrupo, indexGrupo = 0;
+
+botaoDireitaGrupo.onclick = function() { indexGrupo++; setarMembrosGrupo(); }
+botaoEsquerdaGrupo.onclick = function() { indexGrupo--; setarMembrosGrupo(); }
+
+function setarMembrosGrupo() {
+	if (!dataGrupo)
+		return;
+
+	if (indexGrupo < 0 || indexGrupo > Math.ceil(dataGrupo.length/3)-1) indexGrupo = 0;
+
+	let nomeGrupo, imagemGrupo, textoGrupo, linkGrupo;
+
+	for (let i = 0; i < 3; i++)
+	{
+		let sep = dataGrupo[(indexGrupo*3)+i];
+		nomeGrupo = document.getElementById(`nome_grupo${i}`);
+		imagemGrupo = document.getElementById(`imagem_grupo${i}`);
+		textoGrupo = document.getElementById(`texto_grupo${i}`);
+		linkGrupo = document.getElementById(`link_grupo${i}`);
+		orcidGrupo = document.getElementById(`link1_grupo${i}`);
+		
+		if (!sep){
+			nomeGrupo.textContent = "Pepe";
+			imagemGrupo.src = `/etc/img/index_membros/pepe${i}.webp`;
+			textoGrupo.textContent = "Profissional em Jacu";
+			linkGrupo.href = "";
+			orcidGrupo.href = "";
+			break;
+		}
+
+		nomeGrupo.textContent = sep[0];
+		imagemGrupo.src = sep[1] != "" ? `/etc/img/index_membros/${sep[1]}.webp` : "/etc/img/index_membros/fallback.webp";
+		textoGrupo.textContent = sep[2];
+		linkGrupo.href = sep[3];
+		orcidGrupo.href = sep[4];
+	}
+}
+
+fetch("/etc/membros.json").then(res => res.json()).then(data => { dataGrupo = data.sort(); setarMembrosGrupo(); });

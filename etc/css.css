@@ -158,6 +158,18 @@ body {
     	text-overflow: clip;
 }
 
+.body .primeiroBloco button {
+	padding: 5px;
+	background: 0;
+	border: 0;
+	font-size: 2rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.body .primeiroBloco button:hover {
+	color: var(--conea);
+}
+
 .body .primeiroBloco .noticiasBloco {
 	color: var(--black);
 	margin-right: auto;
@@ -181,7 +193,7 @@ body {
 }
 
 .body .primeiroBloco .artigosBloco img {
-	border-radius: 1rem;
+	border-radius: 100%;
 	width: 240px;
 	height: 240px;
 }
