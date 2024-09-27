@@ -117,26 +117,23 @@ function setarMembrosGrupo() {
 
 	for (let i = 0; i < 3; i++)
 	{
-		let sep = dataGrupo[(indexGrupo*3)+i];
+		let index = (indexGrupo * 3) + i;
+		if (index >= dataGrupo.length) index = dataGrupo.findIndex(e => e[0] == "Pepe");
+		let sep = dataGrupo[index];
 		nomeGrupo = document.getElementById(`nome_grupo${i}`);
 		imagemGrupo = document.getElementById(`imagem_grupo${i}`);
 		textoGrupo = document.getElementById(`texto_grupo${i}`);
 		linkGrupo = document.getElementById(`link_grupo${i}`);
 		orcidGrupo = document.getElementById(`link1_grupo${i}`);
-		
-		if (!sep){
-			nomeGrupo.textContent = "Pepe";
-			imagemGrupo.src = `/etc/img/index_membros/pepe${i}.webp`;
-			textoGrupo.textContent = "Profissional em Jacu";
-			linkGrupo.href = "";
-			orcidGrupo.href = "";
-			break;
-		}
 
 		nomeGrupo.textContent = sep[0];
-		imagemGrupo.src = sep[1] != "" ? `/etc/img/index_membros/${sep[1]}.webp` : "/etc/img/index_membros/fallback.webp";
+		imagemGrupo.src = sep[1] != "" ? `/etc/img/index_membros/${sep[1] == "pepe" ? sep[1]+`${Math.floor(Math.random() * 3)}` : sep[1]}.webp` : "/etc/img/index_membros/fallback.webp";
 		textoGrupo.textContent = sep[2];
+		linkGrupo.textContent = sep[3] ? "Lattes" : "";
 		linkGrupo.href = sep[3];
+		linkGrupo.style.borderRight = sep[4] ? "2px solid var(--conea)" : "";
+		linkGrupo.style.paddingRight = sep[4] ? "5px" : "";
+		orcidGrupo.textContent = sep[4] ? "ORCID" : "";
 		orcidGrupo.href = sep[4];
 	}
 }
