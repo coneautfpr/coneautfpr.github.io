@@ -9,6 +9,7 @@ const tituloArtigo = document.getElementById("titulo_artigo");
 const revistaArtigo = document.getElementById("revista_artigo");
 const autoresArtigo = document.getElementById("autores_artigo");
 const linkArtigo = document.getElementById("link_artigo");
+const equipeBloco = document.getElementById("equipe_bloco");
 
 const botaoEsquerdaGrupo = document.getElementById("botao_esquerda_grupo");
 const botaoDireitaGrupo = document.getElementById("botao_direita_grupo");
@@ -111,20 +112,19 @@ function setarMembrosGrupo() {
 	if (!dataGrupo)
 		return;
 
-	if (indexGrupo < 0 || indexGrupo > Math.ceil(dataGrupo.length/3)-1) indexGrupo = 0;
+	if (x.matches) {
+		if (indexGrupo < 0 || indexGrupo > dataGrupo.length-1) indexGrupo = 0;
 
-	let nomeGrupo, imagemGrupo, textoGrupo, linkGrupo;
+		let nomeGrupo, imagemGrupo, textoGrupo, linkGrupo;
 
-	for (let i = 0; i < 3; i++)
-	{
-		let index = (indexGrupo * 3) + i;
+		let index = indexGrupo;
 		if (index >= dataGrupo.length) index = dataGrupo.findIndex(e => e[0] == "Pepe");
 		let sep = dataGrupo[index];
-		nomeGrupo = document.getElementById(`nome_grupo${i}`);
-		imagemGrupo = document.getElementById(`imagem_grupo${i}`);
-		textoGrupo = document.getElementById(`texto_grupo${i}`);
-		linkGrupo = document.getElementById(`link_grupo${i}`);
-		orcidGrupo = document.getElementById(`link1_grupo${i}`);
+		nomeGrupo = document.getElementById(`nome_grupo0`);
+		imagemGrupo = document.getElementById(`imagem_grupo0`);
+		textoGrupo = document.getElementById(`texto_grupo0`);
+		linkGrupo = document.getElementById(`link_grupo0`);
+		orcidGrupo = document.getElementById(`link1_grupo0`);
 
 		nomeGrupo.textContent = sep[0];
 		imagemGrupo.src = sep[1] != "" ? `/etc/img/index_membros/${sep[1] == "pepe" ? sep[1]+`${Math.floor(Math.random() * 3)}` : sep[1]}.webp` : "/etc/img/index_membros/fallback.webp";
@@ -135,6 +135,55 @@ function setarMembrosGrupo() {
 		linkGrupo.style.paddingRight = sep[4] ? "5px" : "";
 		orcidGrupo.textContent = sep[4] ? "ORCID" : "";
 		orcidGrupo.href = sep[4];
+	}
+	else {
+		equipeBloco.innerHTML = "";
+		equipeBloco.style.flexWrap = "wrap";
+
+		dataGrupo.forEach(dg => {
+		/* 
+		<div class = "membroBloco">
+			<img id="imagem_grupo0" src="/etc/img/index_membros/pepe0.webp">
+			<b><small id="nome_grupo0">Pepe</small></b>
+			<small id="texto_grupo0">Profissional em Jacu</small>
+			<small><b><a target="_blank" rel="noopener noreferrer" id="link_grupo0">Lattes</a> <a target="_blank" rel="noopener noreferrer" id="link1_grupo0">ORCID</a></b></small>
+		</div>
+		 * */
+			let membroBloco = document.createElement("div");
+			membroBloco.className = "membroBloco";
+
+			let imagemGrupo = document.createElement("img");
+			imagemGrupo.src = dg[1] != "" ? `/etc/img/index_membros/${dg[1] == "pepe" ? dg[1]+`${Math.floor(Math.random() * 3)}` : dg[1]}.webp` : "/etc/img/index_membros/fallback.webp";
+			membroBloco.appendChild(imagemGrupo);
+
+			let bNomeGrupo = document.createElement("b");
+			let nomeGrupo = document.createElement("small");
+			nomeGrupo.textContent = dg[0];
+			bNomeGrupo.appendChild(nomeGrupo);
+			membroBloco.appendChild(bNomeGrupo);
+
+			let textoGrupo = document.createElement("small");
+			textoGrupo.textContent = dg[2];
+			membroBloco.appendChild(textoGrupo);
+
+			let sLinkGrupo = document.createElement("small");
+			let bLinkGrupo = document.createElement("b");
+			let linkGrupo = document.createElement("a");
+			linkGrupo.textContent = dg[3] ? "Lattes" : "";
+			linkGrupo.href = dg[3];
+			linkGrupo.style.borderRight = dg[4] ? "2px solid var(--conea)" : "";
+			linkGrupo.style.paddingRight = dg[4] ? "5px" : "";
+			bLinkGrupo.appendChild(linkGrupo);
+
+			let orcidGrupo = document.createElement("a");
+			orcidGrupo.textContent = dg[4] ? "ORCID" : "";
+			orcidGrupo.style.paddingLeft = dg[4] ? "5px" : "";
+			orcidGrupo.href = dg[4];
+			bLinkGrupo.appendChild(orcidGrupo);
+			sLinkGrupo.appendChild(bLinkGrupo);
+			membroBloco.appendChild(sLinkGrupo);
+			equipeBloco.appendChild(membroBloco);	
+		});
 	}
 }
 

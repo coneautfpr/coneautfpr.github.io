@@ -158,18 +158,6 @@ body {
     	text-overflow: clip;
 }
 
-.body .primeiroBloco button {
-	padding: 5px;
-	background: 0;
-	border: 0;
-	font-size: 2rem;
-	transition: all 0.2s ease-in-out;
-}
-
-.body .primeiroBloco button:hover {
-	color: var(--conea);
-}
-
 .body .primeiroBloco .noticiasBloco {
 	color: var(--black);
 	margin-right: auto;
@@ -193,6 +181,52 @@ body {
 }
 
 .body .primeiroBloco .artigosBloco img {
+	border-radius: 100%;
+	width: 240px;
+	height: 240px;
+}
+
+.body .equipeBloco {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*border: 1px red solid;*/
+}
+
+.body .equipeBloco b {
+	text-shadow: var(--blackshadow);	
+}
+
+.body .equipeBloco h1 {
+	font-size: 2rem;
+	white-space: nowrap;
+    	overflow:visible;
+    	text-overflow: clip;
+}
+
+.body .equipeBloco button {
+	padding: 5px;
+	background: 0;
+	border: 0;
+	font-size: 2rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.body .equipeBloco button:hover {
+	color: var(--conea);
+}
+
+.body .equipeBloco .membroBloco {
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+	margin-bottom: auto;
+	/*width: 100%;*/
+	padding: 1rem;
+}
+
+.body .equipeBloco .membroBloco img {
 	border-radius: 100%;
 	width: 240px;
 	height: 240px;
