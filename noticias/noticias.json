@@ -1,6 +1,16 @@
 {
 	"noticias":[
 		{
+			"titulo":"CONEA desfila no aniversário de Ponta Grossa",
+			"data":"29/09/2024",
+			"resumo": "O CONEA participou do Desfile em comemoração ao aniversário de 201 anos de Ponta Grossa"
+		},
+		{
+			"titulo":"CONEA fez parte da comissão organizadora do EPEA",
+			"data": "28/09/2024",
+			"resumo": "O evento XVIII EPEA ocorreu na Universidade Estadual de Ponta Grossa (UEPG) e na Universidade Tecnológica Federal do Paraná (UTFPR) campus Ponta Grossa."
+		},
+		{
 			"titulo":"CONEA marca presença no Pré-SICITE e Pré-SEI",
 			"data": "04/09/2024",
 			"resumo": "O CONEA marcou presença dos eventos de Pré-SICITE e Pré-SEI na Universidade Tecnológica Federal do Paraná (UTFPR) Campus Ponta Grossa."

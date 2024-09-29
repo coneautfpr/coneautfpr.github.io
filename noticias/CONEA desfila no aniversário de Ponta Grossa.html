@@ -1,23 +1,9 @@
-# Como publicar uma notícia
-
-- Editar arquivo JSON com as informações da notícia a ser colocada, sempre colocar por primeiro depois de `noticias: [`, ao fechar as chaves, colocar vírgula no final:
-```json
-    	{
-			"titulo":"TITULO COMPLETO",
-			"data": "31/12/2024",
-			"resumo": "RESUMO"
-		},
-```
-
-- Fazer upload de uma imagem com o nome da notícia em formato WEBP, e um arquivo HTML com o mesmo nome, editando as informações após `<!--- body --->`, não se esqueça de trocar o titulo da página na parte `<head>`:
-
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>CONEA - TITULO COMPLETO</title>
+		<title>CONEA - CONEA desfila no aniversário de Ponta Grossa!</title>
 		<link rel="icon" type="image/x-icon" href="/etc/img/conea.png">
 		<link rel="stylesheet" href="/etc/css.css">
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -39,11 +25,13 @@
 		</div> 
 		<!--- body --->
 		<div class="body" id="body">
-			<h1>TITULO COMPLETO</h1>
-			<p>Postado em 31/12/2024.</p>
-			<img src="TITULO COMPLETO.webp"></img>
-			<small>Resumo do texto vai aqui.</small>
-			<p>Separar cada parágrafo assim, começando e terminando com as tags P</p>
+			<h1>CONEA desfila no aniversário de Ponta Grossa!</h1>
+			<p>Postado em 29/09/2024.</p>
+			<img src="CONEA desfila no aniversário de Ponta Grossa.webp"></img>
+			<small>O CONEA participou do Desfile em comemoração ao aniversário de 201 anos de Ponta Grossa</small>
+			<p>Devido às condições climáticas, o desfile em comemoração aos 201 anos da cidade de Ponta Grossa foi adiado do dia 15 para o dia 29 de setembro.</p> 
+
+			<p>Nesta nova data, o grupo CONEA participou levando o pôster com mascote Pepe, adotado após o XVIII Encontro Paranaense de Educação Ambiental (<a href="/noticias/CONEA fez parte da comissão organizadora do EPEA.html">EPEA</a>). CONEA desfilou junto à Universidade Tecnológica Federal do Paraná (UTFPR), ao lado da equipe de Fórmula SAE UTFast, da bateria Carniceiros e das líderes de torcida Presas de Marfim.</p>
 		</div>
 		<!--- end of body --->
 		<div class="footer">
@@ -51,16 +39,4 @@
 		</div>
 	</body>
 </html>
-```
 
-No futuro simplificar esse processo.
-
-# Como incluir um artigo.
-- Editar o arquivo `artigos.json`, colocando o novo artigo em cima do anterior, caso não exista link para a postagem, apenas inclua o primeiro texto, como mostrado no segundo exemplo:
-```json
-[
-	[ "SOBRENOME, Nome . TITULO. LOCAL, 2024. ", "http://dx.doi.org/.../" ],
-	[ "SOBRENOME, Nome . TITULO. LOCAL, 2024. " ],
-    ...
-]
-```

@@ -1,23 +1,9 @@
-# Como publicar uma notícia
-
-- Editar arquivo JSON com as informações da notícia a ser colocada, sempre colocar por primeiro depois de `noticias: [`, ao fechar as chaves, colocar vírgula no final:
-```json
-    	{
-			"titulo":"TITULO COMPLETO",
-			"data": "31/12/2024",
-			"resumo": "RESUMO"
-		},
-```
-
-- Fazer upload de uma imagem com o nome da notícia em formato WEBP, e um arquivo HTML com o mesmo nome, editando as informações após `<!--- body --->`, não se esqueça de trocar o titulo da página na parte `<head>`:
-
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>CONEA - TITULO COMPLETO</title>
+		<title>CONEA - CONEA fez parte da comissão organizadora do EPEA</title>
 		<link rel="icon" type="image/x-icon" href="/etc/img/conea.png">
 		<link rel="stylesheet" href="/etc/css.css">
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -39,11 +25,13 @@
 		</div> 
 		<!--- body --->
 		<div class="body" id="body">
-			<h1>TITULO COMPLETO</h1>
-			<p>Postado em 31/12/2024.</p>
-			<img src="TITULO COMPLETO.webp"></img>
-			<small>Resumo do texto vai aqui.</small>
-			<p>Separar cada parágrafo assim, começando e terminando com as tags P</p>
+			<h1>CONEA fez parte da Comissão Organizadora do EPEA</h1>
+			<p>Postado em 28/09/2024.</p>
+			<img src="CONEA fez parte da comissão organizadora do EPEA.webp"></img>
+			<small>O evento XVIII EPEA ocorreu na Universidade Estadual de Ponta Grossa (UEPG) e na Universidade Tecnológica Federal do Paraná (UTFPR) campus Ponta Grossa.</small>
+			<p>No dia 18 a 21 de setembro ocorreu o evento XVIII Encontro Paranaense de Educação Ambiental (EPEA), organizado pela Universidade Tecnológica Federal do Paraná (UTFPR) e Universidade Estadual de Ponta Grossa (UEPG), visando a estruturação da educação ambiental dentro do estado do Paraná.</p> 
+			<p>O encontro ocorre desde 1998, trazendo experiências e discussões sobre o tema. O grupo de Conservação da Natureza e Educação Ambiental (CONEA), foi um dos responsáveis pela organização do evento. Confira abaixo a reportagem em que a coordenadora do grupo, professora Lia Maris Orth Ritter Antiqueira, recebeu o Meio Dia Paraná na UTFPR, demonstrando uma das oficinas oferecidas pelo evento: "Conhecendo as serpentes".</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/b8cfnfdoYDw?si=STjh-1uLBZbw-drS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		</div>
 		<!--- end of body --->
 		<div class="footer">
@@ -51,16 +39,4 @@
 		</div>
 	</body>
 </html>
-```
 
-No futuro simplificar esse processo.
-
-# Como incluir um artigo.
-- Editar o arquivo `artigos.json`, colocando o novo artigo em cima do anterior, caso não exista link para a postagem, apenas inclua o primeiro texto, como mostrado no segundo exemplo:
-```json
-[
-	[ "SOBRENOME, Nome . TITULO. LOCAL, 2024. ", "http://dx.doi.org/.../" ],
-	[ "SOBRENOME, Nome . TITULO. LOCAL, 2024. " ],
-    ...
-]
-```
