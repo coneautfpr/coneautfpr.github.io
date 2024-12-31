@@ -1,6 +1,11 @@
 {
 	"noticias":[
 		{
+			"titulo": "RETROSPECTIVA DO CONEA 2024",
+			"data":"31/12/2024",
+			"resumo": "Confira as atividades realizadas pelo grupo CONEA durante o ano de 2024."
+		},
+		{
 			"titulo": "CONEA marca presença na VII SALIC",
 			"data":"01/12/2024",
 			"resumo": "Do dia 4 a 8 de novembro de 2024, ocorreu a VII Semana Acadêmica das Licenciaturas (SALIC), o evento contou com palestras, mesa-redonda, oficinas e minicursos relacionados ao ensino de Ciências Biológicas."
