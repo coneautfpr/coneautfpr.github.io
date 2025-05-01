@@ -19,7 +19,6 @@ let sec = 0;
 let arrDescricao = [
 	"Visita técnica ao Refúgio das Curucacas.",
 	"Visita técnica ao Refúgio das Curucacas.",
-	"Visita técnica à Usina Termoelétrica a Biogás - UTB.",
 	"Visita à Vila Velha",
 	"Grupo CONEA no evento XVIII Encontro Paranaense de Educação Ambiental",
 ];
