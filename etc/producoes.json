@@ -1,0 +1,23 @@
+{
+    "_comment": "//id para imagens, dentro de etc/img/procucoes/x.webp; ordene por data",
+    "producoes": [
+        {
+            "id": "2",
+            "titulo": "Promoção da alimentação saudável e prática de atividade física nos livros didáticos de ciências dos anos iniciais do ensino fundamental.",
+            "autores": "Karine Aparecida Kuller Penna, Danislei Bertoni e Lia Maris Orth Ritter Antiqueira",
+            "url": "https://repositorio.utfpr.edu.br/jspui/bitstream/1/35218/3/cadernodidaticohabitossaudaveis_produto.pdf"
+        },
+        {
+            "id": "1",
+            "titulo": "Trilhas ecológicas e objetos digitais de aprendizagem: possibilidades para o ensino de ciências e biologia",
+            "autores": "Rúbia Freitas Pinheiro e Lia Maris Orth Ritter Antiqueira",
+            "url": "https://sites.google.com/view/ciencianaflona/p%C3%A1gina-inicial?authuser=0&pli=1"
+        },
+        {
+            "id": "0",
+            "titulo": "Práticas de educação ambiental implementadas por professores em formação continuada no programa de desenvolvimento educacional SEED/PR",
+            "autores": "João Marcos Heggler, Danislei Bertoni e Lia Maris Orth Ritter Antiqueira",
+            "url": "https://riut.utfpr.edu.br/jspui/bitstream/1/26061/2/educacaoambientalprofessoresformacao_produto.pdf"
+        }
+    ]
+}

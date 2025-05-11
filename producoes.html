@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>CONEA - 404</title>
+		<title>CONEA - Contato 🌱</title>
 		<link rel="icon" type="image/x-icon" href="/etc/img/conea.png">
 		<link rel="stylesheet" href="/etc/css.css">
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -19,16 +19,21 @@
 			<a href="/contato.html"><i class="bx bx-envelope"></i> <b>Contato</b></a>
 			<a href="/artigos.html"><i class="bx bx-library"></i> <b>Artigos</b></a>
 			<a href="/historia.html"><i class="bx bxs-tree"></i> <b>História</b></a>
-			<a href="/producoes.html"><i class="bx bxs-download"></i> <b>Produções</b></a>
+			<a class="active" href="/producoes.html"><i class="bx bxs-download"></i> <b>Produções</b></a>
 			<a class="social" href="https://www.instagram.com/conea.utfprpg/" aria-label="Instagram" alt="Página do Instagram do CONEA" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
 			<a class="social" href="https://www.facebook.com/coneautfprpg" aria-label="Facebook" alt="Página do Facebook do CONEA" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
 			<!--<a id="dark-mode" aria-label="Ativar modo escuro." alt="Ativar modo escuro." onclick="ativarAcessibilidade()"><i class='bx bx-moon'></i></a>-->
 			<a id="acessibilidade" aria-label="Desativar Animações e ativar alto contraste." alt="Desativar animações e ativar alto contraste" onclick="ativarAcessibilidade()"><i class='bx bx-low-vision'></i></a>
 		</div> 
 		<!--- body --->
-		<div class="body">
-			<h1>Esta página não está disponível (ainda).</h1>
-			<img src="https://http.cat/404"></img>
+		<div class="body" id="body">
+			<small><b>Você sabia que os pesquisadores do CONEA desenvolvem produções educacionais voltadas para as temáticas do grupo em diversos âmbitos?</b></small> 
+			<small>Nas monografias produzidas nos trabalhos de conclusão de curso, nos projetos de iniciação científica e extensão, nas dissertações de mestrado e teses de doutorado, há sempre um interesse forte de contribuir com materiais para professores, educadores ambientais e outros pesquisadores que trabalham as temáticas.</small> 
+			<small><b>E você pode acompanhar por aqui tudo que é produzido e disponibilizado gratuitamente. Faça bom uso e divulgue para outros interessados!</b></small>
+			<noscript> Infelizmente está página necessita de JavaScript para exibir seu conteúdo. </noscript>
+			<h1 class="carregando"><i class="bx bx-loader bx-spin"></i>Indexando produções.</h1>
+			<div class="pesquisa"><input disabled="1" for="search" type="search"></input> <i class="bx bx-search"></i></div>
+			<script type="text/javascript" src="/etc/js/producoes.js"></script>
 		</div>
 		<!--- end of body --->
 		<div class="footer">
