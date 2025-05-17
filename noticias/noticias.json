@@ -2,6 +2,11 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias":[
 		{
+			"titulo": "CONEA CONHECE O PARNA SAINT HILAIRE LANGE",
+			"data": "16/05/2025",
+			"resumo": "Confira as atividades realizada pelo grupo em viagem à Matinhos, Paraná."
+		},
+		{
 			"titulo": "CONVERSA COM CONEA Edição de Abril",
 			"data": "09/04/2025",
 			"resumo": "Minicurso sobre direitos de imagens e palestra sobre Taxonomia "

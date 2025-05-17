@@ -21,6 +21,10 @@ let arrDescricao = [
 	"Visita técnica ao Refúgio das Curucacas.",
 	"Visita à Vila Velha",
 	"Grupo CONEA no evento XVIII Encontro Paranaense de Educação Ambiental",
+	"Grupo CONEA subindo o Morro do Escalvado em Matinhos, Paraná.",
+	"Grupo CONEA no Pico de Matinhos, Paraná.",
+	"Grupo CONEA se preparando para viagem para Matinhos, Paraná.",
+	"Integrante do CONEA na frente do Morro do Escalvado.",
 ];
 var x = window.matchMedia("(max-width: 768px)");
 
