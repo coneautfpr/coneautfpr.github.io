@@ -2,6 +2,12 @@
     "_comment": "//id para imagens, dentro de etc/img/procucoes/x.webp; ordene por data",
     "producoes": [
         {
+            "id": "3",
+            "titulo": "A TEMÁTICA COMPOSTAGEM COMO ESTRATÉGIA DE EDUCAÇÃO AMBIENTAL NO ENSINO MÉDIO.",
+            "autores": "Giovanna Conrado Quadros e Lia Maris Orth Ritter Antiqueira",
+            "url": "https://drive.google.com/file/d/14yETulFkInRSlk8aaxCS0WyELvgnw0CZ/view?usp=sharing"
+        },
+        {
             "id": "2",
             "titulo": "Promoção da alimentação saudável e prática de atividade física nos livros didáticos de ciências dos anos iniciais do ensino fundamental.",
             "autores": "Karine Aparecida Kuller Penna, Danislei Bertoni e Lia Maris Orth Ritter Antiqueira",

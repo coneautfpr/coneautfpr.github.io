@@ -1,6 +1,21 @@
 {
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
-	"noticias":[
+	"noticias": [
+		{
+			"titulo": "Conhecendo as Doenças Neurodegenerativas",
+			"data": "06/07/2025",
+			"resumo": "Conversa com CONEA de julho tem como convidada coordenadora do Projeto Estímulo."
+		},
+		{
+			"titulo": "Oficinas em coletivo com a UMP",
+			"data": "06/07/2025",
+			"resumo": "Grupo CONEA realiza atividades em parceria com a União por Moradia Popular (UMP)."
+		},
+		{
+			"titulo": "V Fórum Paranaense de Arborização Urbana (VFPAU)",
+			"data": "06/07/2025",
+			"resumo": "Coordenadora do CONEA participa de mesa-redonda."
+		},
 		{
 			"titulo": "CONEA CONHECE O PARNA SAINT HILAIRE LANGE",
 			"data": "16/05/2025",
@@ -23,41 +38,41 @@
 		},
 		{
 			"titulo": "RETROSPECTIVA DO CONEA 2024",
-			"data":"31/12/2024",
+			"data": "31/12/2024",
 			"resumo": "Confira as atividades realizadas pelo grupo CONEA durante o ano de 2024."
 		},
 		{
 			"titulo": "CONEA marca presença na VII SALIC",
-			"data":"01/12/2024",
+			"data": "01/12/2024",
 			"resumo": "Do dia 4 a 8 de novembro de 2024, ocorreu a VII Semana Acadêmica das Licenciaturas (SALIC), o evento contou com palestras, mesa-redonda, oficinas e minicursos relacionados ao ensino de Ciências Biológicas."
 		},
 		{
 			"titulo": "CONEA marca presença em SEI-SICITE!",
-			"data":"16/11/2024",
-			"resumo":"O CONEA marcou presença no evento SEI-SICITE na Universidade Tecnológica Federal do Paraná (UTFPR) Campus Francisco Beltrão."
+			"data": "16/11/2024",
+			"resumo": "O CONEA marcou presença no evento SEI-SICITE na Universidade Tecnológica Federal do Paraná (UTFPR) Campus Francisco Beltrão."
 		},
 		{
 			"titulo": "BOO! Emergência Climática",
-			"data":"31/10/2024",
-			"resumo":"Grupo CONEA promove festa com temática: \"Emergência Climática\"."
+			"data": "31/10/2024",
+			"resumo": "Grupo CONEA promove festa com temática: \"Emergência Climática\"."
 		},
 		{
 			"titulo": "MCZA 2024 – Grupo CONEA marca sua presença em Amostra Científica",
-			"data":"19/10/2024",
+			"data": "19/10/2024",
 			"resumo": "Nossas bolsistas Maria e Ana Beatriz levaram, junto com o CABIO da UTFPR/PG, amostras do material didático e exemplares de exsicatas do nosso Herbário."
 		},
 		{
-			"titulo":"CONEA desfila no aniversário de Ponta Grossa",
-			"data":"29/09/2024",
+			"titulo": "CONEA desfila no aniversário de Ponta Grossa",
+			"data": "29/09/2024",
 			"resumo": "O CONEA participou do Desfile em comemoração ao aniversário de 201 anos de Ponta Grossa"
 		},
 		{
-			"titulo":"CONEA fez parte da comissão organizadora do EPEA",
+			"titulo": "CONEA fez parte da comissão organizadora do EPEA",
 			"data": "28/09/2024",
 			"resumo": "O evento XVIII EPEA ocorreu na Universidade Estadual de Ponta Grossa (UEPG) e na Universidade Tecnológica Federal do Paraná (UTFPR) campus Ponta Grossa."
 		},
 		{
-			"titulo":"CONEA marca presença no Pré-SICITE e Pré-SEI",
+			"titulo": "CONEA marca presença no Pré-SICITE e Pré-SEI",
 			"data": "04/09/2024",
 			"resumo": "O CONEA marcou presença dos eventos de Pré-SICITE e Pré-SEI na Universidade Tecnológica Federal do Paraná (UTFPR) Campus Ponta Grossa."
 		}
