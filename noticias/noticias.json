@@ -2,6 +2,11 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "Agricultura Familiar",
+			"data": "09/08/2025",
+			"resumo": "Celebração da Vida da Agricultura Familiar: 14º Encontro."
+		},
+		{
 			"titulo": "Conhecendo as Doenças Neurodegenerativas",
 			"data": "06/07/2025",
 			"resumo": "Conversa com CONEA de julho tem como convidada coordenadora do Projeto Estímulo."
