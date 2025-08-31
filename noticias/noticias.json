@@ -2,6 +2,11 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "CONEA marca presença em no VIII Congresso Internacional de Educação Ambiental dos Países e Comunidades de Língua Portuguesa",
+			"data": "31/08/2025",
+			"resumo": "Confira as atividades realizadas!"
+		},
+		{
 			"titulo": "Agricultura Familiar",
 			"data": "09/08/2025",
 			"resumo": "Celebração da Vida da Agricultura Familiar: 14º Encontro."
