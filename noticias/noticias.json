@@ -2,6 +2,11 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "CONEA marca presença no XIII CONECOTUR e IX ECOUC",
+			"data": "09/09/2025",
+			"resumo": "XIII CONECOTUR - Congresso Nacional de Ecoturismo e IX ECOUC - Encontro Interdisciplinar de Ecoturismo em Unidades de Conservação, ocorreu de 21 a 23 de agosto de 2025, na UEPG."
+		},
+		{
 			"titulo": "CONEA marca presença em no VIII Congresso Internacional de Educação Ambiental dos Países e Comunidades de Língua Portuguesa",
 			"data": "31/08/2025",
 			"resumo": "Confira as atividades realizadas!"
