@@ -2,7 +2,7 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
-			"titulo": "Lançamento de livro",
+			"titulo": "Lançamento de livros",
 			"data":"11/09/2025",
 			"resumo": "Pesquisadora do CONEA lança livros sobre a Popularização da Ciência."
 		},
