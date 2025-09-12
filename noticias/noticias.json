@@ -2,6 +2,11 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "Lançamento de livro",
+			"data":"11/09/2025",
+			"resumo": "Pesquisadora do CONEA lança livros sobre a Popularização da Ciência."
+		},
+		{
 			"titulo": "CONEA marca presença no XIII CONECOTUR e IX ECOUC",
 			"data": "09/09/2025",
 			"resumo": "XIII CONECOTUR - Congresso Nacional de Ecoturismo e IX ECOUC - Encontro Interdisciplinar de Ecoturismo em Unidades de Conservação, ocorreu de 21 a 23 de agosto de 2025, na UEPG."
