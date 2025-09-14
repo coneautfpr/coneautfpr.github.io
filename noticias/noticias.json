@@ -2,6 +2,16 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "Moção de aplauso ao grupo CONEA",
+			"data": "14/09/2025",
+			"resumo": "Líder do CONEA recebe moção durante Sessão Especial da Câmara Municipal na UTFPR-PG"
+		},
+		{
+			"titulo": "Palestra sobre Emergência Climática na FASF, Ponta Grossa",
+			"data": "14/09/2025",
+			"resumo": "Coordenadora do CONEA realiza palestra para estudantes do ensino superior"
+		},
+		{
 			"titulo": "Lançamento de livros",
 			"data":"11/09/2025",
 			"resumo": "Pesquisadora do CONEA lança livros sobre a Popularização da Ciência."
