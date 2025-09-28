@@ -2,6 +2,16 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "Princesa em Festa: confira a participação do CONEA nos 202 anos de Ponta Grossa",
+			"data": "28/09/2025",
+			"resumo": "Grupo CONEA realizou oficina gratuita de bolos e campanha de combate à IST."
+		},
+		{
+			"titulo": "Capacitação sobre CNPq e Plataforma Lattes",
+			"data": "28/09/2025",
+			"resumo": "Grupo CONEA promove capacitação interna."
+		},
+		{
 			"titulo": "Parque Nacional de Saint-Hilaire Lange: Quem foi o paranaense homenageado",
 			"data": "15/09/2025",
 			"resumo": " "
