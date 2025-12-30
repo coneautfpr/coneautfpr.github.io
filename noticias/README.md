@@ -49,7 +49,7 @@
 		</div>
 		<!--- end of body --->
 		<div class="footer">
-			<footer>©  2024 CONEA</footer>
+			<footer>©  2025 CONEA</footer>
 		</div>
 	</body>
 </html>

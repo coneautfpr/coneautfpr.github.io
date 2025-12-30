@@ -2,6 +2,31 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "AÇÃO DE NATAL 2025",
+			"data:": "15/12/2025",
+			"resumo": "Grupo CONEA reúne mais de 110 pessoas se reuniram em prol da adoção de cartas de Natal de 22 crianças da Instituição Francisclara."
+		},
+		{
+			"titulo": "III Festival Literário Artístico e Cultural (FLAC)",
+			"data:": "25/11/2025",
+			"resumo": "O grupo CONEA marcou presença na 3ª edição do FLAC – Festival Literário, Artístico e Cultural da Universidade Tecnológica Federal do Paraná (UTFPR), Ponta Grossa."
+		},
+		{
+			"titulo": "XV SEI & XXX SICITE UTFPR",
+			"data:": "24/10/2025",
+			"resumo": "Grupo CONEA participou do evento XV Seminário de Extensão e Inovação & XXX Seminário de Iniciação Científica e Tecnológica da Universidade Tecnológica Federal do Paraná (UTFPR), em Curitiba, Paraná."
+		},
+		{
+			"titulo": "PORTAS ABERTAS UTFPR PONTA GROSSA",
+			"data:": "07/10/2025",
+			"resumo": "Grupo CONEA participa do evento Portas Abertas na Universidade Tecnológica Federal do Paraná (UTFPR) Ponta Grossa."
+		},
+		{
+			"titulo": "OFICINAS NO COLÉGIO DORAH",
+			"data:": "02/10/2025",
+			"resumo": "Grupo CONEA realizou diversas oficinas no Colégio Estadual Dorah Gomes Daitschman, no município de Ponta Grossa, Paraná."
+		},
+		{
 			"titulo": "Princesa em Festa: confira a participação do CONEA nos 202 anos de Ponta Grossa",
 			"data": "28/09/2025",
 			"resumo": "Grupo CONEA realizou oficina gratuita de bolos e campanha de combate à IST."
@@ -28,7 +53,7 @@
 		},
 		{
 			"titulo": "Lançamento de livros",
-			"data":"11/09/2025",
+			"data": "11/09/2025",
 			"resumo": "Pesquisadora do CONEA lança livros sobre a Popularização da Ciência."
 		},
 		{
@@ -93,12 +118,12 @@
 		},
 		{
 			"titulo": "III Congresso Iberoamericano de Biogeografia – CIB, I Conferência Brasileira de Biogeografia e mudanças climáticas - CBB e XIII Congreso Español de Biogeografia – CEB",
-			"data": "29/11/2024", 
+			"data": "29/11/2024",
 			"resumo": "Doutoranda e pesquisadora Natalie Alana Pedroso apresentou seu trabalho intitulado “Biogeografia, Interdisciplinaridade e as Sementes Crioulas”"
 		},
 		{
 			"titulo": "Congresso Interno dos Estudantes (COINTER)",
-			"data": "18/11/2024", 
+			"data": "18/11/2024",
 			"resumo": "Integrantes do CONEA divulgam o grupo no COINTER."
 		},
 		{
@@ -108,7 +133,7 @@
 		},
 		{
 			"titulo": "II FLAC - Festival Literário, Artístico e Cultural",
-			"data": "14/11/2024", 
+			"data": "14/11/2024",
 			"resumo": "Grupo CONEA marca presença apresentando materiais artísticos-científicos."
 		},
 		{
