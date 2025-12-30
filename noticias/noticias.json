@@ -2,6 +2,11 @@
 	"_comment": "//coloque novos posts em cima, nome da noticia é seu arquivo html e imagem",
 	"noticias": [
 		{
+			"titulo": "RETROSPECTIVA DO CONEA 2025",
+			"data": "29/12/2025",
+			"resumo": "Confira as atividades realizadas pelo grupo CONEA durante o ano de 2025."
+		},
+		{
 			"titulo": "AÇÃO DE NATAL 2025",
 			"data": "15/12/2025",
 			"resumo": "Grupo CONEA reúne mais de 110 pessoas se reuniram em prol da adoção de cartas de Natal de 22 crianças da Instituição Francisclara."
