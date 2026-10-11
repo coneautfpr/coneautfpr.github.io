@@ -57,7 +57,7 @@
 			Universidade Tecnológica Federal do Paraná, campus Ponta Grossa</p>
 			<ul class="redes">
 			{%- for rede in site.redes %}
-				<li><a href="{{ rede.url }}" rel="noopener">{% include "partials/icone.njk" %}<span>{{ rede.nome }}</span></a></li>
+				<li><a href="{{ rede.url }}">{% include "partials/icone.njk" %}<span>{{ rede.nome }}</span></a></li>
 			{%- endfor %}
 				<li><a href="mailto:{{ site.email }}">{% set rede = { icone: "email" } %}{% include "partials/icone.njk" %}<span>{{ site.email }}</span></a></li>
 			</ul>

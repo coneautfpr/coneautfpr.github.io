@@ -16,7 +16,7 @@ permalink: /eventos/
 			{%- if ev.noticia %}
 			<a href="/noticias/{{ ev.noticia }}/">{{ ev.titulo }}</a>
 			{%- elif ev.link %}
-			<a href="{{ ev.link }}" rel="noopener">{{ ev.titulo }}</a>
+			<a href="{{ ev.link }}">{{ ev.titulo }}</a>
 			{%- else %}
 			<span>{{ ev.titulo }}</span>
 			{%- endif %}

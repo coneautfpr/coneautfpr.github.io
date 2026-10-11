@@ -20,7 +20,7 @@ linhas:
 		<p class="lead">O CONEA reúne estudantes e pesquisadores da UTFPR campus Ponta Grossa desde 2016, com pesquisa, ensino e extensão voltados à natureza e à educação ambiental.</p>
 		<p class="acoes">
 			<a class="botao" href="/noticias/">Ver notícias</a>
-			<a class="botao botao-secundario" href="{{ site.espelhoCnpq }}" rel="noopener">Espelho do grupo no CNPq</a>
+			<a class="botao botao-secundario" href="{{ site.espelhoCnpq }}">Espelho do grupo no CNPq</a>
 		</p>
 	</div>
 </section>
@@ -64,8 +64,8 @@ linhas:
 			<p>{{ membro.descricao }}</p>
 			{%- if membro.lattes or membro.orcid %}
 			<p class="links">
-				{%- if membro.lattes %}<a href="{{ membro.lattes }}" rel="noopener">Lattes</a>{% endif %}
-				{%- if membro.orcid %}<a href="{{ membro.orcid }}" rel="noopener">ORCID</a>{% endif %}
+				{%- if membro.lattes %}<a href="{{ membro.lattes }}">Lattes</a>{% endif %}
+				{%- if membro.orcid %}<a href="{{ membro.orcid }}">ORCID</a>{% endif %}
 			</p>
 			{%- endif %}
 		</li>
@@ -80,5 +80,5 @@ linhas:
 		<p>Acompanhe as atividades, os eventos, as oficinas e as ações de divulgação científica do grupo.</p>
 	</div>
 	{%- set rede = { icone: "instagram" } %}
-	<a class="botao botao-icone" href="https://www.instagram.com/conea.utfprpg/" rel="noopener">{% include "partials/icone.njk" %}@conea.utfprpg</a>
+	<a class="botao botao-icone" href="https://www.instagram.com/conea.utfprpg/">{% include "partials/icone.njk" %}@conea.utfprpg</a>
 </section>
