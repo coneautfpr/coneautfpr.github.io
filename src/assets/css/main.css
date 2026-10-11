@@ -390,10 +390,10 @@ main.inicio { padding-top: 0; }
 .card-noticia:hover, .card-producao:hover { border-color: var(--verde-claro); }
 .card-noticia img, .card-producao img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .card-noticia > div, .card-producao > div { padding: 1.25rem 1.25rem 1.25rem 0; }
-.card-noticia h3, .card-producao h2 { font-size: 1.25rem; margin-bottom: 0.4rem; }
-.card-noticia h3 a, .card-producao h2 a { color: var(--titulo); text-decoration: none; }
+.card-noticia h2, .card-producao h2 { font-size: 1.25rem; margin-bottom: 0.4rem; }
+.card-noticia h2 a, .card-producao h2 a { color: var(--titulo); text-decoration: none; }
 /* o card inteiro é clicável */
-.card-noticia h3 a::after, .card-producao h2 a::after { content: ""; position: absolute; inset: 0; }
+.card-noticia h2 a::after, .card-producao h2 a::after { content: ""; position: absolute; inset: 0; }
 .card-noticia p:last-child { color: var(--texto-suave); margin: 0; }
 /* capas de publicação (quadradas) numa coluna estreita, sem corte */
 .card-producao { grid-template-columns: 10rem 1fr; }
