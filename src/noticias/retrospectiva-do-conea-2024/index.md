@@ -1,7 +1,7 @@
 ---
 title: RETROSPECTIVA DO CONEA 2024
 date: '2024-12-31'
-resumo: Confira as atividades realizadas pelo grupo CONEA durante o ano de 2024.
+resumo: Atividades realizadas pelo grupo CONEA durante o ano de 2024.
 ---
 
 # FEVEREIRO

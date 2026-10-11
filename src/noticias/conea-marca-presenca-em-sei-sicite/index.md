@@ -1,5 +1,5 @@
 ---
-title: CONEA marca presença em SEI-SICITE!
+title: CONEA marca presença no SEI-SICITE
 date: '2024-11-16'
 resumo: O CONEA marcou presença no evento SEI-SICITE na Universidade Tecnológica Federal do Paraná (UTFPR) Campus Francisco Beltrão.
 ---
@@ -12,4 +12,4 @@ No dia 30 de outubro de 2024, os membros participaram da visita técnica à [Bio
 
 ![](imagem-2.webp)
 
-Acompanhe mais novidades em nosso Instagram [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/)
+Mais novidades no Instagram do grupo: [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/).

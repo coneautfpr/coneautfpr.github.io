@@ -14,4 +14,4 @@ Juntamente, tivemos a participação de estudantes de outros campi UTFPR, como C
 
 No próximo dia 14 teremos a palestra online "Por quê estudar Taxonomia e Sistemática no século 21?", ministrada pelo mestre e atual doutorando no Programa de Pós-Graduação em Ecologia e Recursos Naturais (PPGERN) da Universidade Federal de São Carlos (UFSCar - Campus São Carlos), Daniel de Castro Schelesky Prado.
 
-Interessados devem se inscrever pelo site do Even3, [clicando aqui!](https://www.even3.com.br/conversa-com-conea-edicao-de-abril-551157/)<iframe class="embed" src="https://www.instagram.com/p/DIPRlVfRoWD/embed" title="Publicação do Instagram" loading="lazy" allowfullscreen=""></iframe>
+As inscrições devem ser feitas na [página do evento no Even3](https://www.even3.com.br/conversa-com-conea-edicao-de-abril-551157/).

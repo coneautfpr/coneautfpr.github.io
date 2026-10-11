@@ -10,6 +10,6 @@ No dia 6, o CONEA promoveu, a palestra "Eu disse pare! Como identificar e reagir
 
 No dia 25, o grupo participou da visita técnica ao Refúgio das Curucacas, situado no povoado Passo do Pupo, distrito de Itaiacoca, município de Ponta Grossa - PR, Brasil.
 
-O Refúgio promove experiências turísticas guiadas, trilhas interpretativas, escalada, rapel e geoturismo. Através da VII Semana Acadêmica das Licenciaturas (VII SALIC), nosso grupo, junto à demais estudantes do curso da Licenciatura em Ciências Biológicas, realizamos a experiência “Decifrando as Furnas”.
+O Refúgio promove experiências turísticas guiadas, trilhas interpretativas, escalada, rapel e geoturismo. Através da VII Semana Acadêmica das Licenciaturas (VII SALIC), nosso grupo, junto às demais estudantes do curso da Licenciatura em Ciências Biológicas, realizamos a experiência “Decifrando as Furnas”.
 
-Acompanhe mais novidades em nosso Instagram [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/)
+Mais novidades no Instagram do grupo: [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/).

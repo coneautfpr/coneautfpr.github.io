@@ -10,10 +10,10 @@ As fantasias incluíam: a representação da espécie exótica invasora caramujo
 
 A bolsista de Iniciação Científica (IC) Maria Eduarda, propôs uma abordagem da vida marinha, em especial o tubarão-baleia (_Rhincodon typus_), sendo afetado pela poluição.
 
-Também houve a apresentação da nossa espécie nativa, quase ameaça de extinção, a gralha azul (_Cyanocorax caeruleus_). A ave, além de símbolo do estado do Paraná, é responsável pela plantação de Araucárias (_Araucaria angustifolia_).
+Também houve a apresentação da nossa espécie nativa, quase ameaçada de extinção, a gralha azul (_Cyanocorax caeruleus_). A ave, além de símbolo do estado do Paraná, é responsável pela plantação de Araucárias (_Araucaria angustifolia_).
 
 ![](imagem-2.webp)
 
 O debate da festa, além da Emergência Climática, foram os “fantasmas” que assombram os cursos de licenciatura.
 
-Acompanhe mais novidades em nosso Instagram [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/)
+Mais novidades no Instagram do grupo: [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/).

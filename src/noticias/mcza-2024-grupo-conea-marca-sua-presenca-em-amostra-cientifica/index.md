@@ -10,4 +10,4 @@ A MCZA é um evento que acontece no Colégio Zilda Arns em Carambeí, Paraná. A
 
 Além de promover a exibição deste material, a Mostra confere a promoção do diálogo científico e o incentivo à pesquisa nos alunos. A presença do CONEA visou, além da amostragem dos produtos elaborados por nossos bolsistas, o estímulo à educação. Nossas estudantes apresentaram, além do grupo de pesquisa, a universidade.
 
-Acompanhe mais novidades em nosso Instagram [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/)
+Mais novidades no Instagram do grupo: [@conea.utfprpg](https://www.instagram.com/conea.utfprpg/).

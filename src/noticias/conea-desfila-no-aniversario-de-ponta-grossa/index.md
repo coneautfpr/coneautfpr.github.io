@@ -1,5 +1,5 @@
 ---
-title: CONEA desfila no aniversário de Ponta Grossa!
+title: CONEA desfila no aniversário de Ponta Grossa
 date: '2024-09-29'
 resumo: O CONEA participou do Desfile em comemoração ao aniversário de 201 anos de Ponta Grossa
 ---
