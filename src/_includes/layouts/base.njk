@@ -14,10 +14,21 @@
 	<link rel="preload" href="/assets/fonts/raleway-latin.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/assets/fonts/assistant-latin.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="stylesheet" href="/assets/css/main.css">
+	{#- Prévia ao compartilhar o link (WhatsApp, Facebook, etc.): notícias usam a própria capa -#}
+	{%- set ehNoticia = page.url.startsWith("/noticias/") and page.url != "/noticias/" %}
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+	<meta property="og:site_name" content="{{ site.nome }} UTFPR">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:type" content="{{ "article" if ehNoticia else "website" }}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 	<meta property="og:title" content="{{ title or site.nome }}">
 	<meta property="og:description" content="{{ resumo or descricao or site.descricao }}">
-	{%- if capa %}
-	<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ capa }}">
+	{%- if ehNoticia %}
+	<meta property="og:image" content="{{ site.url }}{{ page.url }}capa.webp">
+	<meta name="twitter:card" content="summary_large_image">
+	{%- else %}
+	<meta property="og:image" content="{{ site.url }}/assets/img/conea.png">
+	<meta name="twitter:card" content="summary">
 	{%- endif %}
 </head>
 <body>
