@@ -116,6 +116,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	min-height: 100dvh; /* no celular, desconta a barra de endereço que aparece e some */
 }
 
 img, iframe { max-width: 100%; }
