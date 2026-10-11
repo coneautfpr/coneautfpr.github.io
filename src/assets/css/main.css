@@ -461,7 +461,7 @@ main.pagina > ul li { margin-bottom: 0.5rem; }
 main.pagina > p > img, main.pagina > img { border-radius: var(--raio); margin-block: 1.5rem; }
 main.pagina .logo-historia { width: 12rem; margin: 0 auto 2rem; }
 
-/* incorporações (Instagram e YouTube) */
+/* incorporações nas notícias: publicações do Instagram (altura fixa do quadro) e vídeos do YouTube (16:9) */
 .embed {
 	display: block;
 	width: 100%;
