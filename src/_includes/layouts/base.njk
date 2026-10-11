@@ -6,9 +6,8 @@
 	<title>{% if title and page.url != "/" %}{{ title }} · {% endif %}{{ site.nome }} UTFPR</title>
 	<meta name="description" content="{{ resumo or descricao or site.descricao }}">
 	<link rel="icon" href="/assets/img/conea.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Francois+One&family=Raleway:wght@700;900&display=swap">
+	<link rel="preload" href="/assets/fonts/raleway-latin.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/fonts/assistant-latin.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<meta property="og:title" content="{{ title or site.nome }}">
 	<meta property="og:description" content="{{ resumo or descricao or site.descricao }}">
