@@ -156,7 +156,7 @@ No dia 2 de setembro de 2025, a líder do CONEA, professora Lia Antiqueira, real
 
 <iframe class="embed" src="https://www.instagram.com/p/DOUYJnNEX2A/embed" title="Publicação do Instagram" loading="lazy" allowfullscreen=""></iframe>
 
-O grupo CONEA participou do "PRINCESA EM FESTA" evento de caráter sócio-recreativo-cultural promovido pela Secretaria Municipal de Cultura de Ponta Grossa, através do presente "Promover uma oficina gratuita sobre receitas de bolos". Mais informações na notícia “[Princesa em Festa: confira a participação do CONEA nos 202 anos de Ponta Grossa](/noticias/princesa-em-festa-confira-a-participacao-do-conea-nos-202-anos-de-ponta-grossa/)”.
+O grupo CONEA participou do "PRINCESA EM FESTA" evento de caráter sócio-recreativo-cultural promovido pela Secretaria Municipal de Cultura de Ponta Grossa, através do presente "Promover uma oficina gratuita sobre receitas de bolos". Mais informações na notícia “[Princesa em Festa: a participação do CONEA nos 202 anos de Ponta Grossa](/noticias/princesa-em-festa-participacao-do-conea-nos-202-anos-de-ponta-grossa/)”.
 
 <iframe class="embed" src="https://www.instagram.com/reel/DOhN_73jpxZ/embed" title="Publicação do Instagram" loading="lazy" allowfullscreen=""></iframe>
 

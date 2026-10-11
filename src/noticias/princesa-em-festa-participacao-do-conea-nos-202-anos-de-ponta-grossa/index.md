@@ -1,5 +1,5 @@
 ---
-title: 'Princesa em Festa: confira a participação do CONEA nos 202 anos de Ponta Grossa'
+title: 'Princesa em Festa: a participação do CONEA nos 202 anos de Ponta Grossa'
 date: '2025-09-28'
 resumo: Grupo CONEA realizou oficina gratuita de bolos e campanha de combate à IST.
 ---
