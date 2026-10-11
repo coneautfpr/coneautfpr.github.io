@@ -1,37 +1,41 @@
 # Site do CONEA
 
-Site do grupo de pesquisa **CONEA – Conservação da Natureza e Educação Ambiental** (UTFPR Ponta Grossa), publicado em <https://conea.eco.br>.
+Repositório do site do grupo de pesquisa **CONEA – Conservação da Natureza e Educação Ambiental**, da Universidade Tecnológica Federal do Paraná (UTFPR), campus Ponta Grossa. O site está disponível em <https://conea.eco.br>.
 
-O site é gerado pelo [Eleventy](https://www.11ty.dev/) a partir de arquivos Markdown e YAML. A cada push na branch `main`, o GitHub Actions monta o site e publica no GitHub Pages (veja a aba **Actions**). Não é preciso mexer em HTML para publicar conteúdo.
+O site é gerado com o [Eleventy](https://www.11ty.dev/) a partir de arquivos em Markdown e YAML, de modo que a publicação de conteúdo não exige edição de HTML. A cada envio (*push*) para a branch `main`, o GitHub Actions gera o site e o publica no GitHub Pages; o andamento pode ser acompanhado na aba **Actions**.
 
-## Rodar no computador
+## Requisitos
 
-Precisa do [Node.js](https://nodejs.org/) 22 ou mais recente.
+- [Node.js](https://nodejs.org/) versão 22 ou superior.
+
+## Execução local
 
 ```sh
-npm install   # só na primeira vez
-npm start     # abre em http://localhost:8080 e atualiza ao salvar
+npm install   # instala as dependências (necessário apenas na primeira execução)
+npm start     # inicia o servidor em http://localhost:8080
 ```
 
-## Onde fica cada coisa
+O servidor local atualiza o site automaticamente sempre que um arquivo é salvo.
 
-| O quê | Onde |
+## Estrutura do projeto
+
+| Conteúdo | Localização |
 |---|---|
-| Notícias | `src/noticias/<nome-da-noticia>/` (uma pasta por notícia) |
+| Notícias | `src/noticias/<identificador>/`, uma pasta por notícia |
 | Artigos | `src/_data/artigos.yaml` |
-| Produções | `src/_data/producoes.yaml` + imagem em `src/assets/img/producoes/` |
-| Equipe | `src/_data/membros.yaml` + foto em `src/assets/img/equipe/` |
+| Produções | `src/_data/producoes.yaml`; imagens em `src/assets/img/producoes/` |
+| Equipe | `src/_data/membros.yaml`; fotos em `src/assets/img/equipe/` |
 | Eventos | `src/_data/eventos.yaml` |
-| Menu, redes sociais, e-mail | `src/_data/site.yaml` |
+| Menu, redes sociais e e-mail | `src/_data/site.yaml` |
 | Página História | `src/historia.md` |
-| Página inicial | `src/index.njk` (linhas de pesquisa ficam no topo do arquivo) |
-| Visual (cores, fontes) | `src/assets/css/main.css` |
+| Página inicial | `src/index.njk` (as linhas de pesquisa são definidas no início do arquivo) |
+| Estilos (cores e tipografia) | `src/assets/css/main.css` |
 
-## Publicar uma notícia
+## Publicação de notícias
 
-1. Crie uma pasta em `src/noticias/` com o nome da notícia em minúsculas, sem acentos e com hífens. Ele vira o endereço: `src/noticias/oficina-de-tintas/` → `conea.eco.br/noticias/oficina-de-tintas/`.
-2. Coloque nela a foto de capa com o nome **`capa.webp`**.
-3. Crie nela o arquivo **`index.md`**:
+1. Crie uma pasta em `src/noticias/` cujo nome será o identificador da notícia, em letras minúsculas, sem acentos e com palavras separadas por hífens. O nome da pasta define o endereço da página: `src/noticias/oficina-de-tintas/` corresponde a `conea.eco.br/noticias/oficina-de-tintas/`.
+2. Inclua na pasta a imagem de capa, com o nome `capa.webp`.
+3. Crie na pasta o arquivo `index.md`, conforme o modelo:
 
 ```markdown
 ---
@@ -44,32 +48,38 @@ Primeiro parágrafo do texto.
 
 Segundo parágrafo, com **negrito**, _itálico_ e um [link](https://exemplo.com).
 
-![Descrição da foto](foto-2.webp)
-
-<iframe class="embed" src="https://www.instagram.com/p/CODIGO/embed" title="Publicação do Instagram" loading="lazy"></iframe>
+![Descrição da imagem](foto-2.webp)
 ```
 
-- `date` é a data de publicação (ano-mês-dia). A lista de notícias é ordenada por ela, e a mais recente aparece na página inicial.
-- Outras fotos vão na mesma pasta e entram no texto com `![descrição](arquivo.webp)`.
-- Para vídeo do YouTube use `class="embed embed-video"` e o endereço `https://www.youtube.com/embed/CODIGO`.
-- Crédito da foto de capa (opcional): adicione `legenda: Foto por <a href="...">Fulana</a>` no cabeçalho.
+Observações:
 
-## Incluir artigo, produção, membro ou evento
+- O campo `date` indica a data de publicação, no formato ano-mês-dia. As notícias são ordenadas por essa data, e a mais recente é exibida na página inicial.
+- Imagens adicionais devem ser incluídas na mesma pasta e referenciadas no texto com `![descrição](arquivo.webp)`.
+- Vídeos do YouTube podem ser incorporados com `<iframe class="embed embed-video" src="https://www.youtube.com/embed/CODIGO" title="Título do vídeo" loading="lazy"></iframe>`.
+- O crédito da imagem de capa é opcional e pode ser informado no cabeçalho: `legenda: Foto por <a href="...">Nome</a>`.
 
-Edite o arquivo YAML correspondente em `src/_data/`. Cada arquivo tem um comentário no topo e exemplos. Itens novos vão **no topo** da lista (a equipe é ordenada automaticamente: quem tem `lider: true` vem primeiro, os demais por nome). Exemplo de artigo:
+## Atualização de artigos, produções, equipe e eventos
+
+Esses conteúdos são mantidos nos arquivos YAML da pasta `src/_data/`. Cada arquivo traz, no início, a descrição dos campos aceitos. Novos itens devem ser inseridos no início da lista. A equipe é ordenada automaticamente: integrantes marcados com `lider: true` aparecem primeiro, e os demais em ordem alfabética.
+
+Modelo de artigo:
 
 ```yaml
 - titulo: Título do artigo
   autores:
     - SOBRENOME, Nome Completo      # último sobrenome em maiúsculas
-    - ANTIQUEIRA, Lia Maris Orth Ritter
+    - SILVA, Maria Aparecida
   revista: Nome da Revista
   volume: 12
   paginas: 49-63
   ano: 2026
-  doi: 10.1234/abcd.5678          # só o código; sem DOI, use link: https://...
+  doi: 10.1234/abcd.5678          # apenas o código; na ausência de DOI, use link: https://...
 ```
 
-O site monta a referência no padrão ABNT e agrupa os artigos por ano.
+A referência de cada artigo é montada automaticamente no padrão ABNT, e a página de artigos os agrupa por ano.
 
-Para vincular um evento a uma notícia, use em `noticia:` o nome da pasta da notícia.
+Para associar um evento a uma notícia, informe no campo `noticia:` o identificador (nome da pasta) da notícia correspondente.
+
+## Publicação
+
+A publicação é automática: o fluxo `.github/workflows/deploy.yml` é executado a cada envio para a branch `main`. Para publicar novamente sem alterações, utilize a opção **Run workflow** do fluxo "Publicar site", na aba **Actions**.
