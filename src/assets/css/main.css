@@ -461,18 +461,17 @@ main.pagina > ul li { margin-bottom: 0.5rem; }
 main.pagina > p > img, main.pagina > img { border-radius: var(--raio); margin-block: 1.5rem; }
 main.pagina .logo-historia { width: 12rem; margin: 0 auto 2rem; }
 
-/* incorporações nas notícias: publicações do Instagram (altura fixa do quadro) e vídeos do YouTube (16:9) */
+/* vídeos incorporados nas notícias (YouTube), em 16:9 */
 .embed {
 	display: block;
 	width: 100%;
-	max-width: 33rem;
-	height: 42rem;
+	height: auto;
+	aspect-ratio: 16 / 9;
 	margin: 1.5rem auto;
 	border: 0;
 	border-radius: var(--raio);
 	background: var(--superficie);
 }
-.embed-video { max-width: 100%; height: auto; aspect-ratio: 16 / 9; }
 
 /* ===== Rodapé ===== */
 .rodape {
