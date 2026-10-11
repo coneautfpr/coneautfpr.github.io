@@ -1,0 +1,83 @@
+# Artigos publicados. O site agrupa por ano e monta a referência sozinho.
+# Novos artigos vão no topo. Campos:
+#   titulo:   como publicado (sem ponto final)
+#   autores:  lista, um por linha, no formato "SOBRENOME, Prenomes" (último sobrenome em maiúsculas)
+#   revista:  nome do periódico
+#   volume, numero, paginas: opcionais (paginas: "119-129")
+#   artigo:   número do artigo, para revistas que não usam páginas (opcional)
+#   ano:      ano de publicação
+#   doi:      só o código (10.xxxx/...); o site cria o link. Sem DOI, use link: com o endereço.
+
+- titulo: Blockchain as environmental management registry
+  autores:
+    - CAVAGNARI, Daniel Weigert
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: Environmental Development
+  volume: 59
+  artigo: "101478"
+  ano: 2026
+  doi: 10.1016/j.envdev.2026.101478
+
+- titulo: "A Educação Ambiental na legislação: análise histórica, lacunas e caminhos possíveis"
+  autores:
+    - MAZZUTTI, Gabriela Dalzoto
+    - VALENTIM, Mariana Isabeli
+    - BERTONI, Danislei
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: Revista Brasileira de Educação Ambiental
+  volume: 19
+  paginas: 119-129
+  ano: 2024
+  doi: 10.34024/revbea.2024.v9.15597
+
+- titulo: "Registros digitais de ocorrências ambientais para o Brasil: conservação, preservação e fiscalização"
+  autores:
+    - CAVAGNARI, Daniel Weigert
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: Nativa
+  volume: 12
+  paginas: 49-63
+  ano: 2024
+  doi: 10.31413/nat.v12i1.16776
+
+- titulo: "Educação Ambiental, Sustentabilidade e Gestão de Resíduos Sólidos: percepções em Ponta Grossa, Paraná, Brasil"
+  autores:
+    - SANTOS, Leonardo Souza
+    - PEDROSO, Natalie Alana
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: "Ambiente & Educação: Revista de Educação Ambiental"
+  volume: 29
+  paginas: 1-19
+  ano: 2024
+  doi: 10.14295/ambeduc.v29i1.16371
+
+- titulo: "Registros digitais de ocorrências ambientais para o Brasil: desastres naturais e tecnológicos"
+  autores:
+    - CAVAGNARI, Daniel Weigert
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: Nativa
+  volume: 12
+  paginas: 102-117
+  ano: 2024
+  doi: 10.31413/nat.v12i1.16781
+
+- titulo: "Sustentabilidade e educação: contribuições do pensamento freiriano"
+  autores:
+    - ROSA, Marina Comerlatto da
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: Revista Eletrônica do Mestrado em Educação Ambiental
+  volume: 40
+  paginas: "200"
+  ano: 2023
+
+- titulo: "A ameaça da emergência climática para os polinizadores: uma abordagem CTS"
+  autores:
+    - INGENCHKI, Fernanda Nara Pereira
+    - VALENTIM, Mariana Isabeli
+    - SEKINE, Elizabete Satsuki
+    - ANTIQUEIRA, Lia Maris Orth Ritter
+  revista: Revista Eletrônica do Mestrado em Educação Ambiental
+  volume: 40
+  paginas: 237-256
+  ano: 2023
+  doi: 10.14295/remea.v40i3.15718

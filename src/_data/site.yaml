@@ -1,0 +1,19 @@
+nome: CONEA
+nomeCompleto: Conservação da Natureza e Educação Ambiental
+descricao: Grupo de pesquisa da UTFPR campus Ponta Grossa em Conservação da Natureza e Educação Ambiental.
+url: https://conea.eco.br
+email: coneautfprpg@gmail.com
+espelhoCnpq: http://dgp.cnpq.br/dgp/espelhogrupo/240460
+
+menu:
+  - { titulo: Início, url: / }
+  - { titulo: Notícias, url: /noticias/ }
+  - { titulo: Eventos, url: /eventos/ }
+  - { titulo: Artigos, url: /artigos/ }
+  - { titulo: Produções, url: /producoes/ }
+  - { titulo: História, url: /historia/ }
+
+redes:
+  - { nome: Instagram, icone: instagram, url: "https://www.instagram.com/conea.utfprpg/" }
+  - { nome: Facebook, icone: facebook, url: "https://www.facebook.com/coneautfprpg" }
+  - { nome: YouTube, icone: youtube, url: "https://www.youtube.com/@coneautfprpg" }

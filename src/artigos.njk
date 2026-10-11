@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: Artigos
+descricao: Artigos científicos publicados por pesquisadores do CONEA.
+permalink: /artigos/
+---
+<h1>Artigos</h1>
+{%- for grupo in artigos | porAno("ano") %}
+<section class="ano">
+	<h2>{{ grupo.ano }}</h2>
+	<ol class="lista-artigos">
+	{%- for artigo in grupo.itens %}
+		<li class="artigo">
+			{% include "partials/artigo.njk" %}
+		</li>
+	{%- endfor %}
+	</ol>
+</section>
+{%- endfor %}

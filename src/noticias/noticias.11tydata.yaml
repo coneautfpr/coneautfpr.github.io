@@ -1,0 +1,2 @@
+layout: layouts/noticia.njk
+permalink: "/noticias/{{ page.fileSlug }}/"

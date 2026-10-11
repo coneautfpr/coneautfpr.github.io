@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if title and page.url != "/" %}{{ title }} · {% endif %}{{ site.nome }} UTFPR</title>
+	<meta name="description" content="{{ resumo or descricao or site.descricao }}">
+	<link rel="icon" href="/assets/img/conea.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Francois+One&family=Raleway:wght@700;900&display=swap">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<meta property="og:title" content="{{ title or site.nome }}">
+	<meta property="og:description" content="{{ resumo or descricao or site.descricao }}">
+	{%- if capa %}
+	<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ capa }}">
+	{%- endif %}
+</head>
+<body>
+	<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+	<header class="topo">
+		<div class="topo-interno">
+			<a class="marca" href="/"><img src="/assets/img/conea_deitado.png" alt="CONEA — página inicial" width="1280" height="267"></a>
+			<nav aria-label="Principal">
+				<ul class="menu">
+				{%- for item in site.menu %}
+					{%- set ativo = (item.url == "/" and page.url == "/") or (item.url != "/" and page.url.startsWith(item.url)) %}
+					<li><a href="{{ item.url }}"{% if ativo %} aria-current="page"{% endif %}>{{ item.titulo }}</a></li>
+				{%- endfor %}
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="conteudo" class="{{ classe or 'pagina' }}">
+		{{ content | safe }}
+	</main>
+
+	<footer class="rodape">
+		<div class="rodape-interno">
+			<p><strong>{{ site.nome }}</strong> · {{ site.nomeCompleto }}<br>
+			Universidade Tecnológica Federal do Paraná, campus Ponta Grossa</p>
+			<ul class="redes">
+			{%- for rede in site.redes %}
+				<li><a href="{{ rede.url }}" rel="noopener">{% include "partials/icone.njk" %}<span>{{ rede.nome }}</span></a></li>
+			{%- endfor %}
+				<li><a href="mailto:{{ site.email }}">{% set rede = { icone: "email" } %}{% include "partials/icone.njk" %}<span>{{ site.email }}</span></a></li>
+			</ul>
+		</div>
+	</footer>
+	{%- if filtro %}
+	<script src="/assets/js/filtro.js" defer></script>
+	{%- endif %}
+</body>
+</html>

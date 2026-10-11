@@ -1,0 +1,14 @@
+{
+  "name": "conea-site",
+  "private": true,
+  "type": "module",
+  "description": "Site do grupo de pesquisa CONEA (UTFPR Ponta Grossa)",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "js-yaml": "^5.4.3"
+  }
+}

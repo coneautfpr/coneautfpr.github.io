@@ -1,0 +1,8 @@
+<article class="card-noticia" data-busca="{{ noticia.data.title | busca(noticia.data.resumo) }}">
+	<img src="{{ noticia.url }}capa.webp" alt="" loading="lazy">
+	<div>
+		<p class="data"><time datetime="{{ noticia.date | dataISO }}">{{ noticia.date | dataBR }}</time></p>
+		<h3><a href="{{ noticia.url }}">{{ noticia.data.title }}</a></h3>
+		<p>{{ noticia.data.resumo }}</p>
+	</div>
+</article>

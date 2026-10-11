@@ -1,0 +1,10 @@
+{#- Referência de um artigo (variável "artigo"), no padrão ABNT -#}
+{%- set url = ("https://doi.org/" + artigo.doi) if artigo.doi else artigo.link %}
+<h3>{% if url %}<a href="{{ url }}" rel="noopener">{{ artigo.titulo }}</a>{% else %}{{ artigo.titulo }}{% endif %}</h3>
+<p class="autores">{{ artigo.autores | join("; ") }}</p>
+<p class="veiculo"><cite>{{ artigo.revista }}</cite>
+	{%- if artigo.volume %}, v. {{ artigo.volume }}{% endif %}
+	{%- if artigo.numero %}, n. {{ artigo.numero }}{% endif %}
+	{%- if artigo.paginas %}, p. {{ artigo.paginas }}{% endif %}
+	{%- if artigo.artigo %}, {{ artigo.artigo }}{% endif %}, {{ artigo.ano }}.
+	{%- if artigo.doi %} DOI: <a href="https://doi.org/{{ artigo.doi }}" rel="noopener">{{ artigo.doi }}</a>{% endif %}</p>

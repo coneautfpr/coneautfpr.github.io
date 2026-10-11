@@ -1,0 +1,42 @@
+# Eventos dos quais o CONEA participou. data: AAAA-MM. noticia: slug da notícia (pasta em src/noticias/).
+# Novos eventos no topo.
+
+- data: 2025-10
+  titulo: XV SEI & XXX SICITE UTFPR
+  noticia: xv-sei-e-xxx-sicite-utfpr
+- data: 2025-08
+  titulo: III CONECOTUR - Congresso Nacional de Ecoturismo e IX ECOUC - Encontro Interdisciplinar de Ecoturismo em Unidades de Conservação
+  noticia: conea-marca-presenca-no-xiii-conecotur-e-ix-ecouc
+- data: 2025-07
+  titulo: VIII Congresso Internacional de Educação Ambiental dos Países e Comunidades de Língua Portuguesa
+  noticia: conea-marca-presenca-em-no-viii-congresso-internacional-de-educacao-ambiental
+- data: 2025-07
+  titulo: 'Celebração da Vida da Agricultura Familiar: 14º Encontro'
+  noticia: agricultura-familiar
+- data: 2025-06
+  titulo: V Fórum Paranaense de Arborização Urbana (VFPAU)
+  noticia: v-forum-paranaense-de-arborizacao-urbana-vfpau
+- data: 2025-02
+  titulo: 3º Encontro dos Núcleos de Cooperação Socioambiental dos Campos Gerais
+  noticia: iii-encontro-dos-nucleos-de-cooperacao-socioambiental-dos-campos-gerais
+- data: 2024-11
+  titulo: III Congresso Iberoamericano de Biogeografia – CIB, I Conferência Brasileira de Biogeografia e mudanças climáticas - CBB e XIII Congreso Español de Biogeografia – CEB
+  noticia: iii-congresso-iberoamericano-de-biogeografia-cib-i-conferencia-brasileira
+- data: 2024-11
+  titulo: Congresso Interno dos Estudantes (COINTER)
+  noticia: congresso-interno-dos-estudantes-cointer
+- data: 2024-11
+  titulo: II FLAC - Festival Literário, Artístico e Cultural
+  noticia: ii-flac-festival-literario-artistico-e-cultural
+- data: 2024-11
+  titulo: VII Semana Acadêmica das Licenciaturas (SALIC)
+  noticia: conea-marca-presenca-na-vii-salic
+- data: 2024-10
+  titulo: XIV Seminário de Extensão e Inovação & XXIX Seminário de Iniciação Científica e Tecnológica da UTFPR - SEI/SICITE 2024
+  noticia: conea-marca-presenca-em-sei-sicite
+- data: 2024-10
+  titulo: MCZA 2024 - Mostra Científica Zilda Arns
+  noticia: mcza-2024-grupo-conea-marca-sua-presenca-em-amostra-cientifica
+- data: 2024-09
+  titulo: XVIII Encontro Paranaense de Educação Ambiental (EPEA)
+  noticia: conea-fez-parte-da-comissao-organizadora-do-epea

@@ -1,0 +1,9 @@
+{#- Campo de busca das listas. Variáveis: rotuloBusca, dicaBusca, itemSingular, itemPlural -#}
+<div class="busca" data-busca-campo hidden>
+	<label class="visualmente-oculto" for="busca">{{ rotuloBusca }}</label>
+	<div class="busca-campo">
+		<svg class="busca-lupa" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+		<input id="busca" type="search" autocomplete="off" placeholder="{{ dicaBusca or rotuloBusca }}" aria-describedby="busca-contagem">
+	</div>
+	<p class="busca-contagem" id="busca-contagem" aria-live="polite" data-contagem data-singular="{{ itemSingular }}" data-plural="{{ itemPlural }}"></p>
+</div>

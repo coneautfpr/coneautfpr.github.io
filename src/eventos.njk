@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Eventos
+descricao: Eventos dos quais o CONEA participou e colaborou.
+permalink: /eventos/
+---
+<h1>Eventos</h1>
+<p class="lead">Eventos dos quais o CONEA já participou e colaborou.</p>
+{%- for grupo in eventos | porAno %}
+<section class="ano">
+	<h2>{{ grupo.ano }}</h2>
+	<ul class="lista-eventos">
+	{%- for ev in grupo.itens %}
+		<li>
+			<span class="data">{{ ev.data | mes }}</span>
+			{%- if ev.noticia %}
+			<a href="/noticias/{{ ev.noticia }}/">{{ ev.titulo }}</a>
+			{%- elif ev.link %}
+			<a href="{{ ev.link }}" rel="noopener">{{ ev.titulo }}</a>
+			{%- else %}
+			<span>{{ ev.titulo }}</span>
+			{%- endif %}
+		</li>
+	{%- endfor %}
+	</ul>
+</section>
+{%- endfor %}

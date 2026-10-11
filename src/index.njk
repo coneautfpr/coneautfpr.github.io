@@ -1,0 +1,84 @@
+---
+layout: layouts/base.njk
+title: Início
+classe: inicio
+linhas:
+  - Divulgação Científica
+  - Biologia, Botânica e Etnobotânica
+  - Conservação da Natureza
+  - Educação Ambiental
+  - Etnociência e Etnoconservação
+  - Inteligência Ecológica
+  - Sustentabilidade
+  - Políticas Públicas
+  - Saúde Planetária
+---
+<section class="apresentacao">
+	<div class="faixa">
+		<p class="rotulo">Grupo de pesquisa · UTFPR Ponta Grossa</p>
+		<h1>Conservação da Natureza e Educação Ambiental</h1>
+		<p class="lead">O CONEA reúne estudantes e pesquisadores da UTFPR campus Ponta Grossa desde 2016, com pesquisa, ensino e extensão voltados à natureza e à educação ambiental.</p>
+		<p class="acoes">
+			<a class="botao" href="/noticias/">Ver notícias</a>
+			<a class="botao botao-secundario" href="{{ site.espelhoCnpq }}" rel="noopener">Espelho do grupo no CNPq</a>
+		</p>
+	</div>
+</section>
+
+<section class="secao linhas">
+	<h2>{{ linhas.length }} linhas de pesquisa</h2>
+	<ul class="etiquetas">
+	{%- for linha in linhas %}
+		<li>{{ linha }}</li>
+	{%- endfor %}
+	</ul>
+</section>
+
+<section class="secao destaques">
+	{%- set noticia = collections.noticias | first %}
+	<article class="destaque destaque-noticia">
+		<p class="selo">Última notícia</p>
+		<a href="{{ noticia.url }}"><img src="{{ noticia.url }}capa.webp" alt="" loading="lazy"></a>
+		<p class="data"><time datetime="{{ noticia.date | dataISO }}">{{ noticia.date | dataBR }}</time></p>
+		<h2><a href="{{ noticia.url }}">{{ noticia.data.title }}</a></h2>
+		<p>{{ noticia.data.resumo }}</p>
+	</article>
+	<article class="destaque destaque-artigo">
+		<p class="selo">Últimos artigos</p>
+		{%- for artigo in artigos.slice(0, 2) %}
+		<div class="item-artigo">
+			{% include "partials/artigo.njk" %}
+		</div>
+		{%- endfor %}
+		<p class="mais"><a href="/artigos/">Todos os artigos →</a></p>
+	</article>
+</section>
+
+<section class="secao equipe">
+	<h2>Conheça a equipe</h2>
+	<ul class="membros">
+	{%- for membro in membros | ordenarEquipe %}
+		<li class="membro">
+			<img src="/assets/img/equipe/{{ membro.foto or 'fallback.webp' }}" alt="" loading="lazy" width="160" height="160">
+			<h3>{{ membro.nome }}</h3>
+			<p>{{ membro.descricao }}</p>
+			{%- if membro.lattes or membro.orcid %}
+			<p class="links">
+				{%- if membro.lattes %}<a href="{{ membro.lattes }}" rel="noopener">Lattes</a>{% endif %}
+				{%- if membro.orcid %}<a href="{{ membro.orcid }}" rel="noopener">ORCID</a>{% endif %}
+			</p>
+			{%- endif %}
+		</li>
+	{%- endfor %}
+	</ul>
+</section>
+
+<section class="secao instagram">
+	<img class="instagram-avatar" src="/assets/img/conea.png" alt="" width="400" height="400">
+	<div class="instagram-texto">
+		<h2>Siga nosso Instagram</h2>
+		<p>Acompanhe o dia a dia do grupo: atividades, eventos, oficinas e divulgação científica.</p>
+	</div>
+	{%- set rede = { icone: "instagram" } %}
+	<a class="botao botao-icone" href="https://www.instagram.com/conea.utfprpg/" rel="noopener">{% include "partials/icone.njk" %}@conea.utfprpg</a>
+</section>

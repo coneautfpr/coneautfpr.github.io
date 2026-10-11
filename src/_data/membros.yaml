@@ -1,0 +1,30 @@
+# Equipe exibida na página inicial. No site, quem tem "lider: true" aparece primeiro;
+# os demais seguem em ordem alfabética.
+# foto: arquivo em src/assets/img/equipe/ (opcional).
+
+- nome: Lia Maris Orth Ritter Antiqueira
+  lider: true
+  descricao: Docente na Universidade Tecnológica Federal do Paraná
+  foto: lia.webp
+  lattes: http://lattes.cnpq.br/6914975623530073
+  orcid: https://orcid.org/0000-0001-8453-0751
+- nome: Ana Beatriz de Azevedo Piva de Castro
+  descricao: Graduanda em Licenciatura em Ciências Biológicas
+  foto: ana.webp
+  lattes: http://lattes.cnpq.br/9482791062712699
+  orcid: https://orcid.org/0009-0000-6802-6301
+- nome: Giuliane Stauski Florencio
+  descricao: Graduanda em Licenciatura em Ciências Biológicas
+  foto: giuli.webp
+  lattes: http://lattes.cnpq.br/6049385523095308
+  orcid: https://orcid.org/0009-0003-8908-8802
+- nome: Karoline da Silva
+  descricao: Graduanda em Licenciatura em Ciências Biológicas
+  foto: karol_com_k.webp
+  lattes: https://lattes.cnpq.br/4442480341583903
+  orcid: https://orcid.org/0009-0007-3774-3800
+- nome: Pepe
+  descricao: Mascote do CONEA
+  foto: pepe0.webp
+  lattes:
+  orcid:

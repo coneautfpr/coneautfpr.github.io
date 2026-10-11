@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+title: Notícias
+descricao: Notícias e atividades do grupo CONEA.
+permalink: /noticias/
+filtro: true
+---
+<h1>Notícias</h1>
+{% set rotuloBusca = "Buscar notícias" %}{% set dicaBusca = "Buscar por título ou assunto…" %}{% set itemSingular = "notícia" %}{% set itemPlural = "notícias" %}{% include "partials/busca.njk" %}
+<div class="lista-noticias" data-lista>
+{%- for noticia in collections.noticias %}
+	{% include "partials/card-noticia.njk" %}
+{%- endfor %}
+</div>
+<p class="vazio" data-vazio hidden>Nenhuma notícia encontrada.</p>

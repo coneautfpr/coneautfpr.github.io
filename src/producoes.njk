@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: Produções
+descricao: Produções educacionais do CONEA disponíveis gratuitamente.
+permalink: /producoes/
+---
+<h1>Produções</h1>
+<div class="intro">
+	<p><strong>Os pesquisadores do CONEA desenvolvem produções educacionais voltadas às temáticas do grupo.</strong></p>
+	<p>Nas monografias dos trabalhos de conclusão de curso, nos projetos de iniciação científica e extensão, nas dissertações de mestrado e teses de doutorado, há sempre um interesse forte em contribuir com materiais para professores, educadores ambientais e outros pesquisadores que trabalham essas temáticas.</p>
+	<p>Aqui você acompanha tudo o que é produzido e disponibilizado gratuitamente. Faça bom uso e divulgue!</p>
+</div>
+<div class="lista-producoes">
+{%- for p in producoes %}
+	<article class="card-producao">
+		<img src="/assets/img/producoes/{{ p.imagem }}" alt="" loading="lazy">
+		<div>
+			<h2><a href="{{ p.url }}" rel="noopener">{{ p.titulo }}</a></h2>
+			<p class="autores">{{ p.autores }}</p>
+		</div>
+	</article>
+{%- endfor %}
+</div>
