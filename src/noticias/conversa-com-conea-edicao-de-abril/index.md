@@ -1,5 +1,5 @@
 ---
-title: CONVERSA COM CONEA Edição de Abril
+title: 'Conversa com CONEA: edição de abril'
 date: '2025-04-09'
 resumo: Minicurso sobre direitos de imagens e palestra sobre Taxonomia
 ---

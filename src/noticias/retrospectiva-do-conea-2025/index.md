@@ -1,5 +1,5 @@
 ---
-title: RETROSPECTIVA DO CONEA 2025
+title: Retrospectiva do CONEA 2025
 date: '2025-12-29'
 resumo: Atividades realizadas pelo grupo CONEA durante o ano de 2025.
 ---
@@ -14,7 +14,7 @@ As apresentações contaram com a presença de integrantes do grupo CONEA e de a
 
 No dia 27 de fevereiro de 2025, o grupo CONEA esteve presente no Centro de Educação Ambiental, próximo ao Lago Olarias, em luta contra o corte de mais de 5 mil árvores nativas, localizadas na Rua Aristides Lobo, 819, Bairro Olarias, em Ponta Grossa, Paraná.
 
-Mais informações na notícia “[LUTE PELA NATUREZA](/noticias/lute-pela-natureza/)”.
+Mais informações na notícia “[Lute pela natureza](/noticias/lute-pela-natureza/)”.
 
 ## Março
 
@@ -30,7 +30,7 @@ Durante os dias 31 de março a 11 de abril de 2025, o grupo CONEA, com suas parc
 
 ## Abril
 
-No dia 5 de abril de 2025, o “Conversa com CONEA” realizou um minicurso online com Ana Maria Hoffemann de Carvalho, Tecnóloga em Design Gráfico pela UTFPR Curitiba. No dia 14 ocorreu a palestra online “Por quê estudar Taxonomia e Sistemática no século 21?”, ministrada por Daniel de Castro Schelesky Prado, doutorando no Programa de Pós‑Graduação em Ecologia e Recursos Naturais (PPGERN) da Universidade Federal de São Carlos (UFSCar). Mais informações na notícia “[CONVERSA COM CONEA Edição de Abril](/noticias/conversa-com-conea-edicao-de-abril/)”.
+No dia 5 de abril de 2025, o “Conversa com CONEA” realizou um minicurso online com Ana Maria Hoffemann de Carvalho, Tecnóloga em Design Gráfico pela UTFPR Curitiba. No dia 14 ocorreu a palestra online “Por quê estudar Taxonomia e Sistemática no século 21?”, ministrada por Daniel de Castro Schelesky Prado, doutorando no Programa de Pós‑Graduação em Ecologia e Recursos Naturais (PPGERN) da Universidade Federal de São Carlos (UFSCar). Mais informações na notícia “[Conversa com CONEA: edição de abril](/noticias/conversa-com-conea-edicao-de-abril/)”.
 
 No dia 8 de abril de 2025, o Projeto Biodiversidade na Escola promoveu, na Casa do Piá, uma oficina de tintas naturais. As crianças produziram suas próprias tintas a partir de canela‑curry, colorau, feijão e urucum.
 
@@ -40,7 +40,7 @@ No dia 12 de abril de 2025, o grupo CONEA realizou a primeira capacitação inte
 
 ## Maio
 
-No final de abril, o grupo CONEA realizou uma viagem de campo para Matinhos, litoral paranaense. Durante a viagem, foram gravados nove vídeos/reels com informações sobre os locais visitados. Mais informações na notícia “[CONEA CONHECE O PARNA SAINT HILAIRE/LANGE](/noticias/conea-conhece-o-parna-saint-hilaire-lange/)”.
+No final de abril, o grupo CONEA realizou uma viagem de campo para Matinhos, litoral paranaense. Durante a viagem, foram gravados nove vídeos/reels com informações sobre os locais visitados. Mais informações na notícia “[CONEA conhece o PARNA Saint-Hilaire/Lange](/noticias/conea-conhece-o-parna-saint-hilaire-lange/)”.
 
 Nessa viagem, a professora doutora em Ciências Ambientais, Marina Comerlatto da Rosa, conduziu um curso de saída de estudo em campo nas praias Mansa e dos Amores, com foco na observação do ecossistema marinho, macroalgas, processos evolutivos das plantas e relações antrópicas.
 
@@ -70,9 +70,9 @@ No dia 1º de julho de 2025, promovemos presencialmente o V Conversa com CONEA
 
 As integrantes Giuliane e Ana Beatriz participaram do VIII Congresso Internacional de Educação Ambiental dos Países e Comunidades de Língua Portuguesa, em Manaus, produzindo diversos vídeos de divulgação científica. Mais informações na notícia “[CONEA marca presença no VIII Congresso Internacional de Educação Ambiental dos Países e Comunidades de Língua Portuguesa](/noticias/conea-marca-presenca-em-no-viii-congresso-internacional-de-educacao-ambiental/)”.
 
-No dia 26 de julho de 2025, o grupo CONEA participou da Celebração da Vida da Agricultura Familiar: 14º Encontro, em Itaiacoca, Paraná. Com realização pela ASAECO (Associação Solidária da Agricultura Ecológica de Ponta Grossa e Região) e União por Moradia Popular (UMP) em Ponta Grossa e Região. Mais informações na notícia “[Agricultura Familiar](/noticias/agricultura-familiar/)”.
+No dia 26 de julho de 2025, o grupo CONEA participou da Celebração da Vida da Agricultura Familiar: 14º Encontro, em Itaiacoca, Paraná. Com realização pela ASAECO (Associação Solidária da Agricultura Ecológica de Ponta Grossa e Região) e União por Moradia Popular (UMP) em Ponta Grossa e Região. Mais informações na notícia “[Agricultura familiar](/noticias/agricultura-familiar/)”.
 
-No dia 30 de julho de 2025, o grupo CONEA iniciou uma bateria de oficinas e palestras no Colégio Dorah Gomes Daitschman, no município de Ponta Grossa, Paraná. A Professora Natalie, realizou uma oficina de sementes crioulas, que demonstrava tanto a parte prática, com a criação de uma horta, como a parte teórica sobre a importância do cultivo e uso de tais sementes. Mais informações na notícia “[OFICINAS NO COLÉGIO DORAH](/noticias/oficinas-no-colegio-dorah/)”.
+No dia 30 de julho de 2025, o grupo CONEA iniciou uma bateria de oficinas e palestras no Colégio Dorah Gomes Daitschman, no município de Ponta Grossa, Paraná. A Professora Natalie, realizou uma oficina de sementes crioulas, que demonstrava tanto a parte prática, com a criação de uma horta, como a parte teórica sobre a importância do cultivo e uso de tais sementes. Mais informações na notícia “[Oficinas no Colégio Dorah](/noticias/oficinas-no-colegio-dorah/)”.
 
 ## Agosto
 
@@ -86,13 +86,13 @@ No dia 29 de agosto de 2025, o Centro Acadêmico de Biologia (CABIO) promoveu a 
 
 ## Setembro
 
-No dia 2 de setembro de 2025, a líder do CONEA, professora Lia Antiqueira, realizou na Faculdade Sagrada Família (FASF) em Ponta Grossa, Paraná, uma palestra com o tema Emergência Climática no contexto das profissões. Mais informações na notícia “[Palestra sobre Emergência Climática na FASF, Ponta Grossa](/noticias/palestra-sobre-emergencia-climatica-na-fasf-ponta-grossa/)”.
+No dia 2 de setembro de 2025, a líder do CONEA, professora Lia Antiqueira, realizou na Faculdade Sagrada Família (FASF) em Ponta Grossa, Paraná, uma palestra com o tema Emergência Climática no contexto das profissões. Mais informações na notícia “[Palestra sobre emergência climática na FASF, Ponta Grossa](/noticias/palestra-sobre-emergencia-climatica-na-fasf-ponta-grossa/)”.
 
 O grupo CONEA participou do "PRINCESA EM FESTA" evento de caráter sócio-recreativo-cultural promovido pela Secretaria Municipal de Cultura de Ponta Grossa, através do presente "Promover uma oficina gratuita sobre receitas de bolos". Mais informações na notícia “[Princesa em Festa: a participação do CONEA nos 202 anos de Ponta Grossa](/noticias/princesa-em-festa-participacao-do-conea-nos-202-anos-de-ponta-grossa/)”.
 
 No dia 6 de setembro de 2025, o grupo CONEA participou de uma capacitação interna sobre Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e a Plataforma Lattes, o "Café Lattes", ministrado pela integrante Gabriela. Foi realizado um embasamento histórico sobre o físico paranaense Césare Mansueto Giulio Lattes e suas contribuições para a Ciência no Brasil, junto com um café e lanche entre os participantes. Mais informações na notícia “[Capacitação sobre CNPq e Plataforma Lattes](/noticias/capacitacao-sobre-cnpq-e-plataforma-lattes/)”.
 
-No dia 23 de setembro de 2025 ocorreu o Portas Abertas 2025/2, evento que aproxima a comunidade escolar da universidade por meio da oferta de oficinas, minicursos, palestras e tours pela UTFPR. O grupo CONEA ministrou a oficina "Plantas com poderes especiais". Mais informações na notícia “[PORTAS ABERTAS UTFPR PONTA GROSSA](/noticias/portas-abertas-utfpr-ponta-grossa/)”.
+No dia 23 de setembro de 2025 ocorreu o Portas Abertas 2025/2, evento que aproxima a comunidade escolar da universidade por meio da oferta de oficinas, minicursos, palestras e tours pela UTFPR. O grupo CONEA ministrou a oficina "Plantas com poderes especiais". Mais informações na notícia “[Portas Abertas UTFPR Ponta Grossa](/noticias/portas-abertas-utfpr-ponta-grossa/)”.
 
 ## Outubro
 
@@ -108,9 +108,9 @@ No dia 1 de novembro de 2025, a doutora Natalie Alana Pedroso (PPGSAU‑UTFP
 
 De 5 a 7 de novembro de 2025, a mestranda Larissa marcou presença no 8º Simpósio Científico do ICOMOS‑Brasil: 60 Anos do ICOMOS + 60, na Escola de Arquitetura da Universidade Federal de Minas Gerais, em Belo Horizonte.
 
-Nos dias 11 a 13 de novembro de 2025 o grupo CONEA marcou presença na 3ª edição do FLAC – Festival Literário, Artístico e Cultural da UTFPR Ponta Grossa. Mais informações na notícia “[III Festival Literário Artístico e Cultural (FLAC)](/noticias/iii-festival-literario-artistico-e-cultural-flac/)”.
+Nos dias 11 a 13 de novembro de 2025 o grupo CONEA marcou presença na 3ª edição do FLAC – Festival Literário, Artístico e Cultural da UTFPR Ponta Grossa. Mais informações na notícia “[III Festival Literário, Artístico e Cultural (FLAC)](/noticias/iii-festival-literario-artistico-e-cultural-flac/)”.
 
 ## Dezembro
 
-No dia 15 de dezembro de 2025, foi realizada a entrega dos presentes da Ação de Natal CONEA para a Instituição Francisclara, ação feita em parceria com o Projeto de Extensão Ler³ e o Grupo de Pesquisa e Estudos Interdisciplinares (GPEI): Tecnologia e Sociedade. Mais informações na notícia “[AÇÃO DE NATAL 2025](/noticias/acao-de-natal-2025/)”.
+No dia 15 de dezembro de 2025, foi realizada a entrega dos presentes da Ação de Natal CONEA para a Instituição Francisclara, ação feita em parceria com o Projeto de Extensão Ler³ e o Grupo de Pesquisa e Estudos Interdisciplinares (GPEI): Tecnologia e Sociedade. Mais informações na notícia “[Ação de Natal 2025](/noticias/acao-de-natal-2025/)”.
 

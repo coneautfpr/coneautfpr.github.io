@@ -1,5 +1,5 @@
 ---
-title: CONEA CONHECE O PARNA SAINT HILAIRE/LANGE
+title: CONEA conhece o PARNA Saint-Hilaire/Lange
 date: '2025-05-16'
 resumo: Atividades realizadas pelo grupo em viagem a Matinhos, Paraná.
 ---

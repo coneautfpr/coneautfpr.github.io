@@ -1,5 +1,5 @@
 ---
-title: 'Parque Nacional de Saint-Hilaire/Lange: Quem foi o paranaense homenageado?'
+title: 'Parque Nacional de Saint-Hilaire/Lange: quem foi o paranaense homenageado?'
 date: '2025-09-15'
 resumo: ''
 ---

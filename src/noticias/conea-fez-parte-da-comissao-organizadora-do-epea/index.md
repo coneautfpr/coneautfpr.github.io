@@ -1,5 +1,5 @@
 ---
-title: CONEA fez parte da Comissão Organizadora do EPEA
+title: CONEA fez parte da comissão organizadora do EPEA
 date: '2024-09-28'
 resumo: O evento XVIII EPEA ocorreu na Universidade Estadual de Ponta Grossa (UEPG) e na Universidade Tecnológica Federal do Paraná (UTFPR) campus Ponta Grossa.
 ---

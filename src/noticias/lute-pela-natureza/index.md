@@ -1,5 +1,5 @@
 ---
-title: LUTE PELA NATUREZA
+title: Lute pela natureza
 date: '2025-03-04'
 resumo: Ações do CONEA contra o corte de mais de 5 mil árvores nativas em Ponta Grossa.
 legenda: 'Foto: <a href="https://www.instagram.com/lentequente/">Marina Ranzani/@lentequente</a>'

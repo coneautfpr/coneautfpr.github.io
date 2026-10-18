@@ -1,5 +1,5 @@
 ---
-title: PORTAS ABERTAS UTFPR PONTA GROSSA
+title: Portas Abertas UTFPR Ponta Grossa
 date: '2025-10-07'
 resumo: Grupo CONEA participa do evento Portas Abertas na Universidade Tecnológica Federal do Paraná (UTFPR) Ponta Grossa.
 ---

@@ -1,5 +1,5 @@
 ---
-title: II FLAC - Festival Literário, Artístico e Cultural
+title: 'II FLAC: Festival Literário, Artístico e Cultural'
 date: '2024-11-14'
 resumo: Grupo CONEA marca presença apresentando materiais artísticos-científicos.
 ---

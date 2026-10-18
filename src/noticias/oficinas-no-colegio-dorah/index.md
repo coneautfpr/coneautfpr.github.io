@@ -1,5 +1,5 @@
 ---
-title: OFICINAS NO COLÉGIO DORAH
+title: Oficinas no Colégio Dorah
 date: '2025-10-02'
 resumo: Grupo CONEA realizou diversas oficinas no Colégio Estadual Dorah Gomes Daitschman, no município de Ponta Grossa, Paraná.
 ---

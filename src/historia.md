@@ -25,7 +25,7 @@ A proposta inicial do grupo foi de propor reuniões semanais com os voluntários
 {# Frase oculta: refere-se a um "caderno de memórias" que não está publicado no site.
 Este caderno de memórias resgata todas as atividades realizadas pelo grupo, eventos, resultados de pesquisa apresentados e publicados, além do registro fotográfico da construção do grupo e de sua identidade. #}
 
-## Primeira atuação: Em defesa da APA da Escarpa Devoniana
+## Primeira atuação: em defesa da APA da Escarpa Devoniana
 
 No mês de fevereiro de 2017 o grupo foi convidado a participar do debate envolvendo o projeto de lei 527/2016 que prevê a redução da APA da Escarpa Devoniana.
 

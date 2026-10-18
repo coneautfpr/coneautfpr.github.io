@@ -1,5 +1,5 @@
 ---
-title: Agricultura Familiar
+title: Agricultura familiar
 date: '2025-08-09'
 resumo: 'Celebração da Vida da Agricultura Familiar: 14º Encontro.'
 ---

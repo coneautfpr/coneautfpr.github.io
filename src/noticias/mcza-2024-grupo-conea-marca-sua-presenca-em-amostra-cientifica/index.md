@@ -1,5 +1,5 @@
 ---
-title: MCZA 2024 – Grupo CONEA marca sua presença em Amostra Científica
+title: 'MCZA 2024: grupo CONEA marca presença em mostra científica'
 date: '2024-10-19'
 resumo: Nossas bolsistas Maria e Ana Beatriz levaram, junto com o CABIO da UTFPR/PG, amostras do material didático e exemplares de exsicatas do nosso Herbário.
 ---

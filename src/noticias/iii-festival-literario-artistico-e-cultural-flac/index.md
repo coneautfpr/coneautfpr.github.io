@@ -1,5 +1,5 @@
 ---
-title: III Festival Literário Artístico e Cultural (FLAC)
+title: III Festival Literário, Artístico e Cultural (FLAC)
 date: '2025-11-25'
 resumo: O grupo CONEA marcou presença na 3ª edição do FLAC – Festival Literário, Artístico e Cultural da Universidade Tecnológica Federal do Paraná (UTFPR), Ponta Grossa.
 ---

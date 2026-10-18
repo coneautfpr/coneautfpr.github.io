@@ -1,5 +1,5 @@
 ---
-title: RETROSPECTIVA DO CONEA 2024
+title: Retrospectiva do CONEA 2024
 date: '2024-12-31'
 resumo: Atividades realizadas pelo grupo CONEA durante o ano de 2024.
 ---
@@ -30,7 +30,7 @@ No mesmo mês, o projeto Biodiversidade na Escola, foi selecionado no edital Pro
 
 ## Setembro
 
-Ocorreu o evento XVIII Encontro Paranaense de Educação Ambiental (EPEA) organizado pela Universidade Tecnológica Federal do Paraná (UTFPR) e Universidade Estadual de Ponta Grossa (UEPG). O grupo CONEA fez parte da Comissão Organizadora e Científica do evento, que promoveu palestras, mesas-redondas e oficinas voltadas à Educação Ambiental, além de uma visita ao Parque Estadual Vila Velha. Mais informações na notícia “[CONEA fez parte da Comissão Organizadora do EPEA](/noticias/conea-fez-parte-da-comissao-organizadora-do-epea/)”.
+Ocorreu o evento XVIII Encontro Paranaense de Educação Ambiental (EPEA) organizado pela Universidade Tecnológica Federal do Paraná (UTFPR) e Universidade Estadual de Ponta Grossa (UEPG). O grupo CONEA fez parte da Comissão Organizadora e Científica do evento, que promoveu palestras, mesas-redondas e oficinas voltadas à Educação Ambiental, além de uma visita ao Parque Estadual Vila Velha. Mais informações na notícia “[CONEA fez parte da comissão organizadora do EPEA](/noticias/conea-fez-parte-da-comissao-organizadora-do-epea/)”.
 
 Ao final do mês, o CONEA participou, junto à Universidade Tecnológica Federal do Paraná (UTFPR), do desfile em comemoração do aniversário da cidade de Ponta Grossa, Paraná. A data havia sido postergada devido às chuvas intensas da data oficial. Mais informações na notícia “[CONEA desfila no aniversário de Ponta Grossa](/noticias/conea-desfila-no-aniversario-de-ponta-grossa/)”.
 
@@ -44,7 +44,7 @@ No Dia das Crianças, o grupo CONEA realizou uma ação na Instituição Francis
 
 Em celebração à arrecadação, o CONEA promoveu uma festa de Halloween com a temática “Emergência Climática” para seus integrantes e colaboradores. Os participantes apresentaram-se com fantasias criadas manualmente, representando diversos problemas e elementos da nossa biodiversidade. O debate da festa, além da Emergência Climática, foram os “fantasmas” que assombram os cursos de licenciatura. Mais informações na notícia “[BOO! Emergência Climática](/noticias/boo-emergencia-climatica/)”.
 
-Nossas bolsistas Maria Eduarda e Ana Beatriz participaram da MCZA 2024 - Mostra Científica Zilda Arns em Carambeí, Paraná. Levaram, junto com o Centro Acadêmico de Biologia (CABIO) da UTFPR/PG, amostras de materiais didáticos e exemplares de exsicatas do nosso Herbário. Mais informações na notícia “[MCZA 2024 – Grupo CONEA marca sua presença em Amostra Científica](/noticias/mcza-2024-grupo-conea-marca-sua-presenca-em-amostra-cientifica/)”.
+Nossas bolsistas Maria Eduarda e Ana Beatriz participaram da MCZA 2024 - Mostra Científica Zilda Arns em Carambeí, Paraná. Levaram, junto com o Centro Acadêmico de Biologia (CABIO) da UTFPR/PG, amostras de materiais didáticos e exemplares de exsicatas do nosso Herbário. Mais informações na notícia “[MCZA 2024: grupo CONEA marca presença em mostra científica](/noticias/mcza-2024-grupo-conea-marca-sua-presenca-em-amostra-cientifica/)”.
 
 Ao final do mês, os integrantes do grupo participaram da Trilha Ecológica do VI Encontro de Formação Docente: Educação, Sociedade e Tecnologia, promovido pelo Laboratório Interdisciplinar de Formação de Educadores e Tecnologia (LIFE - TEC).
 
@@ -54,7 +54,7 @@ As bolsistas Ana Beatriz e Giuliane participaram e apresentaram seus respectivos
 
 O CONEA fez parte da Comissão Organizadora da VII Semana Acadêmica das Licenciaturas (SALIC), promovendo a palestra "Eu disse pare! Como identificar e reagir a situações de assédio" ministrada pela psicóloga Adriana Simam. O grupo participou ativamente da Feira Didática das Licenciaturas e da visita técnica ao Refúgio das Curucacas. Mais informações na notícia “[CONEA marca presença na VII SALIC](/noticias/conea-marca-presenca-na-vii-salic/)”.
 
-O grupo esteve presente na 2ª edição do FLAC, o Festival Literário, Artístico e Cultural que aconteceu na UTFPR, campus Ponta Grossa. Durante este evento gratuito e aberto à comunidade, o CONEA apresentou, em seu próprio stand, os materiais desenvolvidos pelos integrantes. Mais informações na notícia “[II FLAC - Festival Literário, Artístico e Cultural](/noticias/ii-flac-festival-literario-artistico-e-cultural/)”.
+O grupo esteve presente na 2ª edição do FLAC, o Festival Literário, Artístico e Cultural que aconteceu na UTFPR, campus Ponta Grossa. Durante este evento gratuito e aberto à comunidade, o CONEA apresentou, em seu próprio stand, os materiais desenvolvidos pelos integrantes. Mais informações na notícia “[II FLAC: Festival Literário, Artístico e Cultural](/noticias/ii-flac-festival-literario-artistico-e-cultural/)”.
 
 As bolsistas Heloiza e Ana Beatriz participaram do Congresso Interno dos Estudantes (COINTER), que ocorreu na UTFPR, campus Cornélio Procópio. As bolsistas representaram o CONEA nas atividades realizadas no congresso, que visavam o fortalecimento do movimento estudantil. Mais informações na notícia “[Congresso Interno dos Estudantes (COINTER)](/noticias/congresso-interno-dos-estudantes-cointer/)”.
 

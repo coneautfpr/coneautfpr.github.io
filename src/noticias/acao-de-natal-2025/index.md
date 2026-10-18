@@ -1,5 +1,5 @@
 ---
-title: AÇÃO DE NATAL 2025
+title: Ação de Natal 2025
 date: '2025-12-15'
 resumo: Grupo CONEA reúne mais de 110 pessoas se reuniram em prol da adoção de cartas de Natal de 22 crianças da Instituição Francisclara.
 ---

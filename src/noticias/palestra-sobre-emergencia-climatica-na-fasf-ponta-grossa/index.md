@@ -1,5 +1,5 @@
 ---
-title: Palestra sobre Emergência Climática na FASF, Ponta Grossa
+title: Palestra sobre emergência climática na FASF, Ponta Grossa
 date: '2025-09-14'
 resumo: Coordenadora do CONEA realiza palestra para estudantes do ensino superior
 ---
