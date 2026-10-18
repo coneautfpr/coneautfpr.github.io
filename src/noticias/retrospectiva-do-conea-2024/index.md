@@ -44,7 +44,7 @@ No Dia das Crianças, o grupo CONEA realizou uma ação na Instituição Francis
 
 Em celebração à arrecadação, o CONEA promoveu uma festa de Halloween com a temática “Emergência Climática” para seus integrantes e colaboradores. Os participantes apresentaram-se com fantasias criadas manualmente, representando diversos problemas e elementos da nossa biodiversidade. O debate da festa, além da Emergência Climática, foram os “fantasmas” que assombram os cursos de licenciatura. Mais informações na notícia “[BOO! Emergência Climática](/noticias/boo-emergencia-climatica/)”.
 
-Nossas bolsistas Maria Eduarda e Ana Beatriz participaram da MCZA 2024 - Mostra Científica Zilda Arns em Carambeí, Paraná. Levaram, junto com o Centro Acadêmico de Biologia (CABIO) da UTFPR/PG, amostras de materiais didáticos e exemplares de exsicatas do nosso Herbário. Mais informações na notícia “[MCZA 2024: grupo CONEA marca presença em mostra científica](/noticias/mcza-2024-grupo-conea-marca-sua-presenca-em-amostra-cientifica/)”.
+Nossas bolsistas Maria Eduarda e Ana Beatriz participaram da MCZA 2024 - Mostra Científica Zilda Arns em Carambeí, Paraná. Levaram, junto com o Centro Acadêmico de Biologia (CABIO) da UTFPR/PG, amostras de materiais didáticos e exemplares de exsicatas do nosso Herbário. Mais informações na notícia “[MCZA 2024: grupo CONEA marca presença em mostra científica](/noticias/mcza-2024-grupo-conea-marca-presenca-em-mostra-cientifica/)”.
 
 Ao final do mês, os integrantes do grupo participaram da Trilha Ecológica do VI Encontro de Formação Docente: Educação, Sociedade e Tecnologia, promovido pelo Laboratório Interdisciplinar de Formação de Educadores e Tecnologia (LIFE - TEC).
 
