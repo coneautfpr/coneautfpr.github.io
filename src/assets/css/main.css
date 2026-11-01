@@ -349,7 +349,7 @@ main.inicio { padding-top: 0; }
 .busca input {
 	width: 100%;
 	font: inherit;
-	padding: 0.8rem 1.25rem 0.8rem 3rem;
+	padding: 0.8rem 3.25rem 0.8rem 3rem;
 	border: 2px solid var(--verde-claro);
 	border-radius: 999px;
 	background: var(--superficie);
@@ -360,6 +360,28 @@ main.inicio { padding-top: 0; }
 .busca input::placeholder { color: var(--texto-suave); opacity: 0.8; }
 .busca input:hover { border-color: var(--verde); }
 .busca input:focus { border-color: var(--verde); outline: none; box-shadow: 0 0 0 4px rgb(253 212 143 / 0.7); }
+/* esconde o "x" nativo do navegador; o botão abaixo o substitui em todos os navegadores */
+.busca input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+.busca-limpar {
+	position: absolute;
+	right: 0.6rem; top: 50%;
+	transform: translateY(-50%);
+	display: grid;
+	place-items: center;
+	width: 2.25rem; height: 2.25rem;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	background: transparent;
+	color: var(--verde);
+	cursor: pointer;
+}
+.busca-limpar svg { width: 1.1rem; height: 1.1rem; }
+.busca-limpar:hover { background: var(--verde-claro); color: var(--verde-escuro); }
+/* no tema escuro, o verde médio tem pouco contraste com o fundo: ícones em verde-claro */
+@media (prefers-color-scheme: dark) {
+	.busca-lupa, .busca-limpar { color: var(--verde-claro); }
+}
 .busca-contagem {
 	font-family: var(--fonte-destaque);
 	letter-spacing: 0.02em;

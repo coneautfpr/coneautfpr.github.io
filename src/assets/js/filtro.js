@@ -4,6 +4,7 @@
 const campo = document.querySelector("[data-busca-campo]");
 const entrada = campo?.querySelector("input");
 const contagem = campo?.querySelector("[data-contagem]");
+const limpar = campo?.querySelector("[data-limpar]");
 const itens = document.querySelectorAll("[data-lista] [data-busca]");
 const vazio = document.querySelector("[data-vazio]");
 
@@ -86,6 +87,7 @@ function filtrar() {
 	if (vazio) vazio.hidden = visiveis > 0;
 	mostrarContagem(visiveis, termos.length > 0);
 	atualizarEndereco(entrada.value);
+	if (limpar) limpar.hidden = !entrada.value;
 }
 
 if (entrada) {
@@ -98,5 +100,7 @@ if (entrada) {
 	entrada.addEventListener("keydown", (evento) => {
 		if (evento.key === "Escape" && entrada.value) { entrada.value = ""; filtrar(); }
 	});
+	// Botão de limpar: apaga a busca e devolve o foco ao campo, para continuar digitando
+	limpar?.addEventListener("click", () => { entrada.value = ""; filtrar(); entrada.focus(); });
 	filtrar();
 }
