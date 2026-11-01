@@ -84,3 +84,14 @@ Para associar um evento a uma notícia, informe no campo `noticia:` o identifica
 ## Publicação
 
 A publicação é automática: o fluxo `.github/workflows/deploy.yml` é executado a cada envio para a branch `main`. Para publicar novamente sem alterações, utilize a opção **Run workflow** do fluxo "Publicar site", na aba **Actions**.
+
+### Página "em construção"
+
+Enquanto o site não for liberado, a publicação exibe apenas a página "Novo site do CONEA em construção", mantida em `construcao/index.html`. Ela também responde a qualquer outro endereço. O servidor local (`npm start`) não é afetado e mostra o site completo.
+
+Para liberar o site completo:
+
+1. No repositório no GitHub, acesse **Settings > Secrets and variables > Actions > Variables** e crie a variável `SITE_PUBLICADO` com o valor `true`.
+2. Execute o fluxo "Publicar site" pela opção **Run workflow**, na aba **Actions** (alterar a variável não dispara uma nova publicação).
+
+Para voltar a exibir a página "em construção", altere o valor da variável para `false` ou exclua-a, e execute o fluxo novamente.

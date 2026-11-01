@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Página publicada no lugar do site enquanto ele não estiver liberado (ver .github/workflows/deploy.yml). -->
+	<title>Novo site em construção - CONEA UTFPR</title>
+	<meta name="description" content="O novo site do grupo de pesquisa CONEA (UTFPR Ponta Grossa) está em construção.">
+	<meta name="robots" content="noindex">
+	<meta name="theme-color" content="#1C513E">
+	<link rel="icon" href="/assets/img/conea.png">
+	<style>
+		@font-face {
+			font-family: "Raleway";
+			font-weight: 700 900;
+			font-display: swap;
+			src: url("/assets/fonts/raleway-latin.woff2") format("woff2");
+		}
+		@font-face {
+			font-family: "Assistant";
+			font-weight: 400 700;
+			font-display: swap;
+			src: url("/assets/fonts/assistant-latin.woff2") format("woff2");
+		}
+		:root {
+			--verde: #2E8B57;
+			--verde-escuro: #1C513E;
+			--marrom: #8D572B;
+			--verde-claro: #BDD9BF;
+			--creme: #EBE4D1;
+			--laranja: #F79250;
+			--fundo: var(--creme);
+			--cartao: #FFFFFF;
+			--texto: #2A2A2A;
+			--titulo: var(--verde-escuro);
+			--link: var(--verde-escuro);
+			color-scheme: light dark;
+		}
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--fundo: #0F2A21;
+				--cartao: #163A2D;
+				--texto: #EBE4D1;
+				--titulo: #EBE4D1;
+				--link: var(--verde-claro);
+			}
+		}
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			min-height: 100vh;
+			min-height: 100dvh;
+			display: grid;
+			place-items: center;
+			padding: 1.5rem;
+			background: var(--fundo);
+			color: var(--texto);
+			font-family: "Assistant", system-ui, sans-serif;
+			font-size: 1.125rem;
+			line-height: 1.6;
+		}
+		main {
+			width: 100%;
+			max-width: 36rem;
+			padding: clamp(1.75rem, 6vw, 3rem);
+			border-radius: 0.75rem;
+			border-top: 6px solid var(--verde);
+			background: var(--cartao);
+			box-shadow: 0 4px 16px rgb(28 81 62 / 0.08);
+			text-align: center;
+		}
+		.logo {
+			display: inline-block;
+			padding: 0.5rem 0.75rem;
+			border-radius: 0.5rem;
+			background: #FFFFFF;
+		}
+		.logo img { display: block; height: 3.25rem; width: auto; }
+		h1 {
+			margin: 1.5rem 0 0.75rem;
+			font-family: "Raleway", system-ui, sans-serif;
+			font-weight: 900;
+			font-size: clamp(1.6rem, 1.2rem + 2vw, 2.2rem);
+			line-height: 1.15;
+			color: var(--titulo);
+		}
+		p { margin: 0 0 1rem; }
+		.contatos {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 0.5rem 1.25rem;
+			margin: 1.5rem 0 0;
+			padding: 1.25rem 0 0;
+			border-top: 1px solid rgb(172 144 111 / 0.45);
+			list-style: none;
+		}
+		a { color: var(--link); font-weight: 700; text-underline-offset: 0.18em; }
+		a:hover { color: var(--marrom); }
+		@media (prefers-color-scheme: dark) { a:hover { color: #FDD48F; } }
+		:focus-visible { outline: 3px solid #FDD48F; outline-offset: 2px; }
+	</style>
+</head>
+<body>
+	<main>
+		<span class="logo"><img src="/assets/img/conea_deitado.png" alt="CONEA" width="1280" height="305"></span>
+		<h1>Novo site do CONEA em construção</h1>
+		<p>O site do grupo de pesquisa CONEA - Conservação da Natureza e Educação Ambiental, da UTFPR campus Ponta Grossa, está sendo renovado e volta em breve.</p>
+		<p>Enquanto isso, acompanhe as atividades do grupo:</p>
+		<ul class="contatos">
+			<li><a href="https://www.instagram.com/conea.utfprpg/">Instagram</a></li>
+			<li><a href="https://www.youtube.com/@coneautfprpg">YouTube</a></li>
+			<li><a href="https://www.facebook.com/coneautfprpg">Facebook</a></li>
+			<li><a href="mailto:coneautfprpg@gmail.com">coneautfprpg@gmail.com</a></li>
+		</ul>
+	</main>
+</body>
+</html>
