@@ -15,7 +15,7 @@ Nossa bolsista de Iniciação Científica (IC), Giuliane, foi a responsável pel
 
 No dia 24 de fevereiro de 2025, visando intensificar o conhecimento da população e sensibilizar sobre a causa, estreou o primeiro "Conversa com CONEA", evento que trará assuntos associados aos problemas ambientais e diversas áreas da Educação Ambiental. Nesse primeiro evento, o professor doutor Carlos Hugo Rocha abordou o tema "Rios urbanos em Ponta Grossa, Paraná".
 
-<iframe class="embed embed-video" src="https://www.youtube.com/embed/w8F-zWAybig?si=_TA8SGgibpwxp078" title="Vídeo do YouTube" loading="lazy" allowfullscreen=""></iframe>
+<iframe class="embed embed-video" src="https://www.youtube.com/embed/w8F-zWAybig?si=_TA8SGgibpwxp078" title="Conversa com CONEA: Rios urbanos em Ponta Grossa, Paraná" loading="lazy" allowfullscreen=""></iframe>
 
 No dia 25 de fevereiro de 2025, o grupo CONEA foi convidado para participar, com embasamento científico, de uma reportagem com a RPC (Rede Paranaense de Comunicação), filiada à Rede Globo. A bolsista Giuliane e a professora Lia, coordenadora do grupo de pesquisa, evidenciaram os problemas ocasionados pelo corte inadequado da mata nativa, assim como as atividades realizadas para promover a sensibilização da população e, principalmente, a participação de todos durante esse período.
 

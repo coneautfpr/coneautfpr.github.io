@@ -55,7 +55,8 @@ Observações:
 
 - O campo `date` indica a data de publicação, no formato ano-mês-dia. As notícias são ordenadas por essa data, e a mais recente é exibida na página inicial.
 - Imagens adicionais devem ser incluídas na mesma pasta e referenciadas no texto com `![descrição](arquivo.webp)`.
-- Vídeos do YouTube podem ser incorporados com `<iframe class="embed embed-video" src="https://www.youtube.com/embed/CODIGO" title="Título do vídeo" loading="lazy"></iframe>`.
+- Vídeos do YouTube podem ser incorporados com `<iframe class="embed embed-video" src="https://www.youtube.com/embed/CODIGO" title="Título do vídeo" loading="lazy"></iframe>`. No site, o vídeo é exibido como uma capa e só é carregado do YouTube quando o visitante clica nela.
+- Preencha o atributo `title` com um título descritivo do vídeo (por exemplo, `title="Reportagem do Meio Dia Paraná sobre o XVIII EPEA"`). Esse texto aparece na capa do vídeo e é o que os leitores de tela anunciam. Se o `title` for omitido ou for o genérico "Vídeo do YouTube", a capa mostra apenas "Assistir ao vídeo".
 - O crédito da imagem de capa é opcional e pode ser informado no cabeçalho: `legenda: Foto por <a href="...">Nome</a>`.
 
 ## Atualização de artigos, produções, equipe e eventos

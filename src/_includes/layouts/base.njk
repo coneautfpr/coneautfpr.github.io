@@ -66,5 +66,9 @@
 	{%- if filtro %}
 	<script src="/assets/js/filtro.js" defer></script>
 	{%- endif %}
+	{#- compartilhar, ampliar fotos e vídeos sob demanda: páginas de notícia e a História -#}
+	{%- if ehNoticia or page.url == "/historia/" %}
+	<script src="/assets/js/conteudo.js" defer></script>
+	{%- endif %}
 </body>
 </html>

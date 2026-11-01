@@ -486,6 +486,68 @@ figcaption { font-size: 0.95rem; color: var(--texto-suave); margin-top: 0.5rem; 
 .texto h2, .texto h3 { margin-top: 2rem; }
 .texto strong { color: var(--titulo); }
 
+/* botão "Compartilhar" (aparece só com JavaScript) */
+.compartilhar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin: 0; }
+.botao-compartilhar {
+	display: inline-flex; align-items: center; gap: 0.5rem;
+	font: inherit; font-weight: 700; font-size: 1rem;
+	padding: 0.45rem 1rem;
+	border: 2px solid var(--verde-claro);
+	border-radius: 999px;
+	background: var(--superficie);
+	color: var(--link);
+	cursor: pointer;
+}
+.botao-compartilhar svg { width: 1.1rem; height: 1.1rem; }
+.botao-compartilhar:hover { border-color: var(--verde); }
+.compartilhar-aviso { font-family: var(--fonte-destaque); letter-spacing: 0.02em; color: var(--data); }
+
+/* fotos que ampliam ao clicar (o JavaScript envolve cada foto num botão) */
+.ampliar {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	background: none;
+	cursor: zoom-in;
+	border-radius: var(--raio);
+}
+.ampliar img { margin-inline: auto; }
+dialog.ampliada {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	max-width: 95vw;
+	max-height: 95vh;
+	overflow: visible;
+}
+dialog.ampliada::backdrop { background: rgb(15 42 33 / 0.88); }
+dialog.ampliada img {
+	display: block;
+	max-width: 95vw;
+	max-height: 90vh;
+	width: auto;
+	height: auto;
+	border-radius: var(--raio);
+}
+.ampliada-fechar {
+	position: absolute;
+	top: -0.75rem; right: -0.75rem;
+	display: grid; place-items: center;
+	width: 2.5rem; height: 2.5rem;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	background: var(--amarelo);
+	color: var(--verde-noite);
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgb(0 0 0 / 0.3);
+}
+.ampliada-fechar svg { width: 1.25rem; height: 1.25rem; }
+@media (max-width: 40rem) {
+	.ampliada-fechar { top: 0.5rem; right: 0.5rem; }
+}
+
 /* páginas em Markdown (história, 404...) */
 main.pagina > ul { padding-left: 1.25rem; }
 main.pagina > ul li { margin-bottom: 0.5rem; }
@@ -503,6 +565,39 @@ main.pagina .logo-historia { width: 12rem; margin: 0 auto 2rem; }
 	border-radius: var(--raio);
 	background: var(--superficie);
 }
+/* capa do vídeo: um link para o YouTube; com JavaScript, vira o vídeo ao clicar */
+.video {
+	display: grid;
+	place-content: center;
+	justify-items: center;
+	gap: 0.75rem;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	margin: 1.5rem auto;
+	padding: 1rem;
+	border-radius: var(--raio);
+	background:
+		radial-gradient(circle at 85% 20%, var(--verde) 0 4rem, transparent 4.05rem),
+		var(--verde-escuro);
+	color: var(--creme);
+	text-align: center;
+	text-decoration: none;
+}
+.video:hover { color: var(--amarelo); }
+.video-play {
+	display: grid; place-items: center;
+	width: 4rem; height: 4rem;
+	border-radius: 50%;
+	background: var(--laranja);
+	color: var(--verde-noite);
+	transition: transform 0.15s;
+}
+.video:hover .video-play { transform: scale(1.08); }
+.video-play svg { width: 2rem; height: 2rem; margin-left: 0.2rem; }
+.video-texto { display: grid; gap: 0.25rem; max-width: 30rem; }
+/* "a.video" aumenta a prioridade sobre ".texto strong", que pinta os negritos das notícias de verde-escuro */
+a.video .video-texto strong { font-family: var(--fonte-titulo); font-size: 1.15rem; color: inherit; }
+.video-texto span { font-size: 0.95rem; opacity: 0.85; }
 
 /* ===== Rodapé ===== */
 .rodape {

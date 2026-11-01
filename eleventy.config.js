@@ -41,6 +41,22 @@ export default function (eleventyConfig) {
 	eleventyConfig.addCollection("noticias", (api) =>
 		api.getFilteredByGlob("src/noticias/*/index.md").sort((a, b) => b.date - a.date));
 
+	// Vídeos do YouTube: troca o <iframe> por uma capa que é um link para o vídeo.
+	// Sem JavaScript, o link abre o vídeo no YouTube; com JavaScript (conteudo.js), o vídeo
+	// é carregado na própria página só depois do clique. Quem escreve a notícia continua
+	// colando o <iframe> normalmente.
+	eleventyConfig.addTransform("videos", (conteudo, caminho) => {
+		if (!caminho || !caminho.endsWith(".html")) return conteudo;
+		return conteudo.replace(/<iframe\b[^>]*\bsrc="https:\/\/www\.youtube(?:-nocookie)?\.com\/embed\/([\w-]{11})[^"]*"[^>]*><\/iframe>/g, (iframe, id) => {
+			const titulo = (iframe.match(/\btitle="([^"]*)"/) || [])[1] || "Vídeo do YouTube";
+			const generico = titulo === "Vídeo do YouTube";
+			return `<a class="video" href="https://www.youtube.com/watch?v=${id}" data-video="${id}" aria-label="Assistir ao vídeo: ${titulo}">`
+				+ `<span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>`
+				+ `<span class="video-texto"><strong>${generico ? "Assistir ao vídeo" : titulo}</strong>`
+				+ `<span>O vídeo é carregado do YouTube ao clicar.</span></span></a>`;
+		});
+	});
+
 	return {
 		dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
 		markdownTemplateEngine: "njk",

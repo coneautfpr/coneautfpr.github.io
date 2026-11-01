@@ -7,6 +7,14 @@ layout: layouts/base.njk
 		<h1>{{ title }}</h1>
 		<p class="data"><time datetime="{{ page.date | dataISO }}">{{ page.date | dataBR }}</time></p>
 		<p class="resumo">{{ resumo }}</p>
+		{#- Aparece só com JavaScript (conteudo.js): no celular abre o menu de compartilhar; no computador copia o link -#}
+		<p class="compartilhar" data-compartilhar hidden>
+			<button type="button" class="botao-compartilhar">
+				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+				<span>Compartilhar</span>
+			</button>
+			<span class="compartilhar-aviso" role="status" data-compartilhar-aviso></span>
+		</p>
 	</header>
 	<figure class="capa">
 		<img src="capa.webp" alt="{{ resumo }}">
