@@ -10,7 +10,7 @@ Nosso bolsista de extensão, Rafael Dalzoto Mazzutti, do curso de Bacharelado em
 
 Rafael trouxe os trabalhos realizados durante o ano de 2025, incluindo o uso das redes sociais e do site CONEA, e a inserção da acessibilidade, utilizando legendas e audiodescrição.
 
-Também tivemos as apresentações em formato online das acadêmicas do curso de Licenciatura em Ciências Biológicas na UTFPR Ponta Grossa: Marya Vitória Cassani de Oliveira, com "O USO DA METODOLOGIA PROJECT BASED LEARNING (PBL) NO PROJETO BIODIVERSIDADE NA ESCOLA"; e Ana Beatriz de Azevedo Piva de Castro com "POLINIZADORES E CIÊNCIA CIDADÃ" e Nadyne dos Santos de Lima com "ENSINO DE BIODIVERSIDADE E INTELIGÊNCIA ECOLÓGICA", ambas no SICITE.
+Também tivemos as apresentações em formato online das acadêmicas do curso de Licenciatura em Ciências Biológicas na UTFPR Ponta Grossa: Marya Vitória Cassani de Oliveira, com "O USO DA METODOLOGIA PROJECT BASED LEARNING (PBL) NO PROJETO BIODIVERSIDADE NA ESCOLA"; Ana Beatriz de Azevedo Piva de Castro, com "POLINIZADORES E CIÊNCIA CIDADÃ"; e Nadyne dos Santos de Lima, com "ENSINO DE BIODIVERSIDADE E INTELIGÊNCIA ECOLÓGICA", todas no SICITE.
 
 Os trabalhos foram publicados e estão disponíveis nos Anais do XV Seminário de Extensão e Inovação & XXX Seminário de Iniciação Científica e Tecnológica da UTFPR:
 

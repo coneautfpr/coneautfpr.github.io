@@ -1,10 +1,10 @@
 ---
 title: Ação de Natal 2025
 date: '2025-12-15'
-resumo: Grupo CONEA reúne mais de 110 pessoas se reuniram em prol da adoção de cartas de Natal de 22 crianças da Instituição Francisclara.
+resumo: Grupo CONEA reúne 110 pessoas em prol da adoção de cartas de Natal de 22 crianças da instituição Francisclara.
 ---
 
-Como tradição, o grupo CONEA realiza ações de Natal na Instituição Francisclara da Criança e da Família, lar para crianças e adolescentes em situação de risco social.
+Por tradição, o grupo CONEA realiza ações de Natal na instituição Francisclara Resgate da Criança e da Família, lar para crianças e adolescentes em situação de risco social.
 
 Como ocorre a ação?
 
@@ -12,9 +12,9 @@ O CONEA reúne os interessados e então disponibiliza as cartas de Natal. A mesm
 
 Dessa forma, durante os meses de novembro e dezembro de 2025, 110 pessoas se reuniram em prol da adoção de cartas de Natal de 22 crianças da instituição.
 
-O grupo CONEA realiza a chamada de indivíduos e demais grupos, projetos de extensão e equipes de competição que desejem participar. Em grupos de pessoas, as cartas são adotadas, presentes são adquiridos, embalados e entregues no laboratório CONEA.
+O grupo CONEA realiza a chamada de indivíduos e demais grupos, projetos de extensão e equipes de competição que desejem participar. Em grupos de pessoas, as cartas são adotadas, presentes são adquiridos, embalados e entregues no Laboratório CONEA.
 
-No dia 15 de dezembro de 2025, foi realizada a entrega dos presentes para a Instituição Francisclara. Agradecemos imensamente a colaboração das entidades:
+No dia 15 de dezembro de 2025, foi realizada a entrega dos presentes para a instituição Francisclara. Agradecemos imensamente a colaboração das entidades:
 
 Projeto Ler³ @projetoler3
 
@@ -22,7 +22,7 @@ Baja Gralha Azul @bajagralha
 
 UTFalcon AeroDesign @utfalcon
 
-Grupo Escoteiros Lagoa Dourada @gelado206
+Grupo Escoteiro Lagoa Dourada @gelado206
 
 Centro Acadêmico de Engenharia Química (CAEQ) @caeq.utfpg
 
