@@ -374,6 +374,13 @@ main.inicio { padding-top: 0; }
 	overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
 }
 .vazio { font-style: italic; color: var(--texto-suave); }
+/* termo encontrado pela busca, destacado no título e no resumo dos cards */
+[data-lista] mark {
+	background: var(--amarelo);
+	color: var(--verde-noite);
+	border-radius: 0.2em;
+	padding: 0 0.1em;
+}
 [hidden] { display: none !important; }
 
 .lista-noticias, .lista-producoes { display: grid; gap: 1.25rem; }
