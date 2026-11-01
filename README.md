@@ -1,6 +1,6 @@
 # Site do CONEA
 
-Repositório do site do grupo de pesquisa **CONEA – Conservação da Natureza e Educação Ambiental**, da Universidade Tecnológica Federal do Paraná (UTFPR), campus Ponta Grossa. O site está disponível em <https://conea.eco.br>.
+Repositório do site do grupo de pesquisa **CONEA - Conservação da Natureza e Educação Ambiental**, da Universidade Tecnológica Federal do Paraná (UTFPR), campus Ponta Grossa. O site está disponível em <https://conea.eco.br>.
 
 O site é gerado com o [Eleventy](https://www.11ty.dev/) a partir de arquivos em Markdown e YAML, de modo que a publicação de conteúdo não exige edição de HTML. A cada envio (*push*) para a branch `main`, o GitHub Actions gera o site e o publica no GitHub Pages; o andamento pode ser acompanhado na aba **Actions**.
 

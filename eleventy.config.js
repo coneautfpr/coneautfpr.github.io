@@ -36,7 +36,7 @@ export default function (eleventyConfig) {
 		Number(Boolean(b.lider)) - Number(Boolean(a.lider)) || a.nome.localeCompare(b.nome, "pt-BR")));
 	// texto em minúsculas e sem acentos, usado pelo filtro de busca
 	eleventyConfig.addFilter("busca", (...partes) => partes.filter(Boolean).join(" ")
-		.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase());
+		.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase());
 
 	eleventyConfig.addCollection("noticias", (api) =>
 		api.getFilteredByGlob("src/noticias/*/index.md").sort((a, b) => b.date - a.date));

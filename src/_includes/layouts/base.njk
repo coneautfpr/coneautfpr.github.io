@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{% if title and page.url != "/" %}{{ title }} · {% endif %}{{ site.nome }} UTFPR</title>
+	<title>{% if title and page.url != "/" %}{{ title }} - {% endif %}{{ site.nome }} UTFPR</title>
 	<meta name="description" content="{{ resumo or descricao or site.descricao }}">
 	<link rel="icon" href="/assets/img/conea.png">
 	{#- Ícones na tela inicial: Android usa o manifesto; iPhone/iPad usam o apple-touch-icon -#}
@@ -35,7 +35,7 @@
 	<a class="pular" href="#conteudo">Pular para o conteúdo</a>
 	<header class="topo">
 		<div class="topo-interno">
-			<a class="marca" href="/"><img src="/assets/img/conea_deitado.png" alt="CONEA — página inicial" width="1280" height="267"></a>
+			<a class="marca" href="/"><img src="/assets/img/conea_deitado.png" alt="CONEA - página inicial" width="1280" height="267"></a>
 			<nav aria-label="Principal">
 				<ul class="menu">
 				{%- for item in site.menu %}
@@ -53,7 +53,7 @@
 
 	<footer class="rodape">
 		<div class="rodape-interno">
-			<p><strong>{{ site.nome }}</strong> · {{ site.nomeCompleto }}<br>
+			<p><strong>{{ site.nome }}</strong> - {{ site.nomeCompleto }}<br>
 			Universidade Tecnológica Federal do Paraná, campus Ponta Grossa</p>
 			<ul class="redes">
 			{%- for rede in site.redes %}

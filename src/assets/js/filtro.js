@@ -6,7 +6,7 @@ const contagem = campo?.querySelector("[data-contagem]");
 const itens = document.querySelectorAll("[data-lista] [data-busca]");
 const vazio = document.querySelector("[data-vazio]");
 
-const normalizar = (texto) => texto.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+const normalizar = (texto) => texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 
 function mostrarContagem(visiveis, buscando) {
 	if (!contagem) return;
@@ -18,7 +18,7 @@ function mostrarContagem(visiveis, buscando) {
 }
 
 function filtrar() {
-	const termos = normalizar(entrada.value).split(/s+/).filter(Boolean);
+	const termos = normalizar(entrada.value).split(/\s+/).filter(Boolean);
 	let visiveis = 0;
 	for (const item of itens) {
 		const mostra = termos.every((termo) => item.dataset.busca.includes(termo));
