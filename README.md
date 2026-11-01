@@ -91,7 +91,7 @@ Enquanto o site não for liberado, a publicação exibe apenas a página "Novo s
 
 Para liberar o site completo:
 
-1. No repositório no GitHub, acesse **Settings > Secrets and variables > Actions > Variables** e crie a variável `SITE_PUBLICADO` com o valor `true`.
+1. No repositório no GitHub, acesse **Settings > Secrets and variables > Actions > Variables** (endereço direto: <https://github.com/coneautfpr/coneautfpr.github.io/settings/variables/actions>) e crie a variável `SITE_PUBLICADO` com o valor `true`.
 2. Execute o fluxo "Publicar site" pela opção **Run workflow**, na aba **Actions** (alterar a variável não dispara uma nova publicação).
 
-Para voltar a exibir a página "em construção", altere o valor da variável para `false` ou exclua-a, e execute o fluxo novamente.
+Para voltar a exibir a página "em construção", altere o valor da variável para `false` ou exclua-a, no mesmo endereço, e execute o fluxo novamente.
